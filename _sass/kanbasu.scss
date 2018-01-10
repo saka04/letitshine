@@ -8,63 +8,63 @@
  * Settings
  */
 
-// @import 'settings/settings';
+@import 'settings/kanbasu';
 
 
 /**
  * Tools
  */
 
-// @import 'tools/functions';
-// @import 'tools/mixins';
+@import '../node_modules/kanbasu/src/scss/tools/functions';
+@import '../node_modules/kanbasu/src/scss/tools/mixins';
 
 
 /**
  * Vendors
  */
 
-// @import 'vendor/normalize';
+@import '../node_modules/kanbasu/src/scss/vendor/normalize';
 
 
 /**
  * Defaults
  */
 
-// @import 'defaults/box-model';
-// @import 'defaults/elements';
-// @import 'defaults/typography';
-// @import 'defaults/table';
-// @import 'defaults/forms';
+// @import '../node_modules/kanbasu/src/scss/defaults/box-model';
+// @import '../node_modules/kanbasu/src/scss/defaults/elements';
+// @import '../node_modules/kanbasu/src/scss/defaults/typography';
+// @import '../node_modules/kanbasu/src/scss/defaults/table';
+// @import '../node_modules/kanbasu/src/scss/defaults/forms';
 
 
 /**
  * Helpers
  */
 
-// @import 'helpers/text';
-// @import 'helpers/text-responsive';
-// @import 'helpers/float';
-// @import 'helpers/spacings';
-// @import 'helpers/spacings-responsive';
-// @import 'helpers/images';
-// @import 'helpers/positionning';
-// @import 'helpers/display';
+// @import '../node_modules/kanbasu/src/scss/helpers/text';
+// @import '../node_modules/kanbasu/src/scss/helpers/text-responsive';
+// @import '../node_modules/kanbasu/src/scss/helpers/float';
+// @import '../node_modules/kanbasu/src/scss/helpers/spacings';
+// @import '../node_modules/kanbasu/src/scss/helpers/spacings-responsive';
+// @import '../node_modules/kanbasu/src/scss/helpers/images';
+// @import '../node_modules/kanbasu/src/scss/helpers/positionning';
+@import '../node_modules/kanbasu/src/scss/helpers/display';
 
 
 /**
  * Components
  */
 
-// @import 'components/grid';
-// @import 'components/widths';
-// @import 'components/widths-responsive';
-// @import 'components/btn';
-// @import 'components/box';
-// @import 'components/media';
-// @import 'components/media-responsive';
-// @import 'components/mosaic';
-// @import 'components/mosaic-responsive';
-// @import 'components/list';
-// @import 'components/list-inline';
-// @import 'components/list-stacked';
-// @import 'components/embed-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/grid';
+// @import '../node_modules/kanbasu/src/scss/components/widths';
+// @import '../node_modules/kanbasu/src/scss/components/widths-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/btn';
+// @import '../node_modules/kanbasu/src/scss/components/box';
+// @import '../node_modules/kanbasu/src/scss/components/media';
+// @import '../node_modules/kanbasu/src/scss/components/media-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/mosaic';
+// @import '../node_modules/kanbasu/src/scss/components/mosaic-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/list';
+// @import '../node_modules/kanbasu/src/scss/components/list-inline';
+// @import '../node_modules/kanbasu/src/scss/components/list-stacked';
+// @import '../node_modules/kanbasu/src/scss/components/embed-responsive';

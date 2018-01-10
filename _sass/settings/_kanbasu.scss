@@ -65,28 +65,28 @@
 
 // Use EM media-queries for better browser consistency
 // See http://zellwk.com/blog/media-query-units
-// $screen-xs-max:                     640px  / 16px * 1em;
-// $screen-sm-min:                     641px  / 16px * 1em;
-// $screen-sm-max:                     768px  / 16px * 1em;
-// $screen-md-min:                     769px  / 16px * 1em;
-// $screen-md-max:                     1024px / 16px * 1em;
-// $screen-lg-min:                     1025px / 16px * 1em;
+$screen-xs-max:                     640px  / 16px * 1em;
+$screen-sm-min:                     641px  / 16px * 1em;
+$screen-sm-max:                     768px  / 16px * 1em;
+$screen-md-min:                     769px  / 16px * 1em;
+$screen-md-max:                     1024px / 16px * 1em;
+$screen-lg-min:                     1025px / 16px * 1em;
 
-// $mq-xs:                             '(max-width: #{$screen-xs-max})'; // DEPRECATED
-// $mq-sm:                             '(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})'; // DEPRECATED
-// $mq-md:                             '(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})'; // DEPRECATED
-// $mq-lg:                             '(min-width: #{$screen-lg-min})'; // DEPRECATED
+$mq-xs:                             '(max-width: #{$screen-xs-max})'; // DEPRECATED
+$mq-sm:                             '(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})'; // DEPRECATED
+$mq-md:                             '(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})'; // DEPRECATED
+$mq-lg:                             '(min-width: #{$screen-lg-min})'; // DEPRECATED
 
-// $breakpoints-default:               (
-//                                       'sm' '(min-width: #{$screen-sm-min})',
-//                                       'md' '(min-width: #{$screen-md-min})',
-//                                       'lg' '(min-width: #{$screen-lg-min})'
-//                                     // );
-// $breakpoints-desc:                  (
-//                                       'xs' '(max-width: #{$screen-xs-max})',
-//                                       'sm' '(max-width: #{$screen-sm-max})',
-//                                       'md' '(max-width: #{$screen-md-max})'
-//                                     // );
+$breakpoints-default:               (
+                                      'sm' '(min-width: #{$screen-sm-min})',
+                                      'md' '(min-width: #{$screen-md-min})',
+                                      'lg' '(min-width: #{$screen-lg-min})'
+                                    );
+$breakpoints-desc:                  (
+                                      'xs' '(max-width: #{$screen-xs-max})',
+                                      'sm' '(max-width: #{$screen-sm-max})',
+                                      'md' '(max-width: #{$screen-md-max})'
+                                    );
 
 
 /**
