@@ -7,7 +7,7 @@ $baseUrl: "{{ site.baseurl }}";
 @charset "utf-8";
 
 // Kanbasu
-@import "settings/kanbasu";
+@import "../node_modules/kanbasu/src/scss/settings/settings";
 @import "kanbasu";
 
 // Hamburger & settings

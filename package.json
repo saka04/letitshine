@@ -1,10 +1,10 @@
 {
-  "name": "ludovicturmel",
+  "name": "Let it shine",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ludovicturmel/cv.git"
+    "url": ""
   },
   "devDependencies": {
     "babel-core": "^6.7.0",
