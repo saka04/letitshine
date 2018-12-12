@@ -1,8 +1,20 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <section class="home">
-	<div class="box box--default">
-		<h3 class="mrg0">{{ t.home.intro.title }}</h3>
-		<p>{{ t.home.intro.content }}</p>
+	<div class="box box--primary">
+		<div class="media">
+    	<div class="media__left">
+				<img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="img-block">
+    	</div>
+    	<div class="media__body">
+        <h3 class="mrg0">{{ t.home.intro.title }}</h3>
+				<p>{{ t.home.intro.content }}</p>
+    	</div>
+		</div>
+	</div>
+
+
+	<div>
+		<p>TODO: créer deux element box en utilisant le composant Kanbasu grid & box (doit etre responsive.)</p>
 	</div>
 </section>
