@@ -1,5 +1,12 @@
 fr:
   home:
     intro:
-      title: Voici mon nouveau site
-      content: Avec mon nouveau contenu 
+      title: Ici sera la barre de navigation
+      content:
+
+    about: Hello! Moi c'est Masha. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus quam, commodo tincidunt neque. Proin neque magna, vulputate sed cursus id, ultrices vel nunc. Pellentesque quis justo et lorem luctus ultrices. In hac habitasse platea dictumst. Suspendisse at metus eu ex feugiat faucibus eget et urna. Sed malesuada ultrices aliquam. Fusce ligula nisl, rhoncus vel imperdiet eu, sagittis et diam. Nunc facilisis lectus eget est tincidunt consectetur. Nullam ultricies maximus placerat. Ut lacinia gravida massa, quis laoreet lectus hendrerit vel.
+    
+    service1: Service 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium, odio sit amet elementum eleifend, orci tellus congue libero, vel hendrerit sapien risus sit amet velit. Vestibulum pellentesque augue non dui semper vehicula. In a molestie neque. Suspendisse non cursus metus. Morbi massa nunc.
+    service2: Service 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium, odio sit amet elementum eleifend, orci tellus congue libero, vel hendrerit sapien risus sit amet velit. Vestibulum pellentesque augue non dui semper vehicula. In a molestie neque. Suspendisse non cursus metus. Morbi massa nunc.
+    service3: Service 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium, odio sit amet elementum eleifend, orci tellus congue libero, vel hendrerit sapien risus sit amet velit. Vestibulum pellentesque augue non dui semper vehicula. In a molestie neque. Suspendisse non cursus metus. Morbi massa nunc.
+    service4: Service 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium, odio sit amet elementum eleifend, orci tellus congue libero, vel hendrerit sapien risus sit amet velit. Vestibulum pellentesque augue non dui semper vehicula. In a molestie neque. Suspendisse non cursus metus. Morbi massa nunc.

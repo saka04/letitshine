@@ -19,6 +19,16 @@
 
     <!-- Header nav -->
     <header>
+      <div class="box box--primary">
+        <div class="media">
+          <div class="media__left">
+            <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="img-block">
+          </div>
+          <div class="media__body" style="position:relative;left:400px;top:30px">
+            <h2 class="mrg0">{{ t.home.intro.title }}</h2>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- I'm the master -->
@@ -27,7 +37,12 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer class="master-footer">
+      <p class="footer pull-left">
+        <a href="/letitshine/">Let it shine!</a> &copy 
+        <script type="text/javascript"> document.write(new Date().getFullYear()); </script> -
+        <a href="mailto:masha@letitshine.ch">Contact</a>
+      </p>
     </footer>
 
     <!-- Scripts -->
