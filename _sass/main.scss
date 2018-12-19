@@ -8,7 +8,8 @@
  * Settings
  */
 
-@import 'settings/kanbasu';
+@import '../node_modules/kanbasu/src/scss/settings/settings';
+@import 'settings/settings';
 
 
 /**
@@ -17,6 +18,7 @@
 
 @import '../node_modules/kanbasu/src/scss/tools/functions';
 @import '../node_modules/kanbasu/src/scss/tools/mixins';
+@import '../node_modules/kanbasu/src/scss/tools/rtl';
 
 
 /**
@@ -49,6 +51,10 @@
 @import '../node_modules/kanbasu/src/scss/helpers/images';
 @import '../node_modules/kanbasu/src/scss/helpers/positionning';
 @import '../node_modules/kanbasu/src/scss/helpers/display';
+@import '../node_modules/kanbasu/src/scss/helpers/align';
+@import '../node_modules/kanbasu/src/scss/helpers/align-responsive';
+
+@import 'helpers/text';
 
 
 /**
@@ -62,9 +68,13 @@
 @import '../node_modules/kanbasu/src/scss/components/box';
 @import '../node_modules/kanbasu/src/scss/components/media';
 @import '../node_modules/kanbasu/src/scss/components/media-responsive';
-// @import '../node_modules/kanbasu/src/scss/components/mosaic';
-// @import '../node_modules/kanbasu/src/scss/components/mosaic-responsive';
 @import '../node_modules/kanbasu/src/scss/components/list';
 @import '../node_modules/kanbasu/src/scss/components/list-inline';
 @import '../node_modules/kanbasu/src/scss/components/list-stacked';
-// @import '../node_modules/kanbasu/src/scss/components/embed-responsive';
+@import '../node_modules/kanbasu/src/scss/components/embed-responsive';
+@import '../node_modules/kanbasu/src/scss/components/container';
+@import '../node_modules/kanbasu/src/scss/components/pusher';
+@import '../node_modules/kanbasu/src/scss/components/table-responsive';
+
+@import 'components/section';
+@import 'components/footer';

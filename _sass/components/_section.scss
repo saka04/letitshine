@@ -1,0 +1,20 @@
+/*----------------------------------------*\
+  SECTION
+\*----------------------------------------*/
+
+.section {}
+  .section__title {
+    color: $alt-white;
+  }
+
+.section--brand {
+  background: linear-gradient(50deg, darken($brand-color, 15%), $brand-color);
+}
+
+.section--small {
+  padding: $spacing-unit-small 0;
+}
+
+.section--huge {
+  padding: $spacing-unit-huge 0;
+}
