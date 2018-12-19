@@ -13,9 +13,11 @@ $rtl:                               false;
  * Colors
  */
 
-$brand-color:                       #dd8699;
-/*pink dd8699*/
-/*blue aae0df*/
+$brand-color:                       #f4bcc7;
+/*pink dark dd8699
+pink lighter f4b0bf
+pink light f4bcc7
+blue aae0df*/
 $alt-white:                         #fff;
 $alt-color-lighter:                 #e8ebee;
 $alt-color-light:                   #adb7c3;
@@ -133,8 +135,8 @@ $btn-default-active-bkg-color:      darken($btn-default-bkg-color, 5%);
 
 $btn-primary-color:                 white;
 $btn-primary-bkg-color:             $brand-color;
-$btn-primary-hover-bkg-color:       lighten($btn-primary-bkg-color, 8%);
-$btn-primary-active-bkg-color:      darken($btn-primary-bkg-color, 5%);
+$btn-primary-hover-bkg-color:       darken($btn-primary-bkg-color, 10%);
+$btn-primary-active-bkg-color:      darken($btn-primary-bkg-color, 15%);
 
 
 /**

@@ -56,7 +56,6 @@
 
 @import 'helpers/text';
 
-
 /**
  * Components
  */
@@ -76,5 +75,6 @@
 @import '../node_modules/kanbasu/src/scss/components/pusher';
 @import '../node_modules/kanbasu/src/scss/components/table-responsive';
 
+@import 'components/about';
 @import 'components/section';
 @import 'components/footer';

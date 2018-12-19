@@ -9,10 +9,11 @@
 
 .section--brand-head {
   background: linear-gradient(to right bottom, white, white 75%, #dd8699);
+  border-bottom: solid $brand-color 1px;
 }
 
 .section--brand {
-  background: linear-gradient(50deg, darken($brand-color, 15%), $brand-color);
+  background: linear-gradient(50deg, darken($brand-color, 10%), $brand-color);
 }
 
 .section--small {
