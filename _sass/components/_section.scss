@@ -7,6 +7,10 @@
     color: $alt-white;
   }
 
+.section--brand-head {
+  background: linear-gradient(to right bottom, white, white 75%, #dd8699);
+}
+
 .section--brand {
   background: linear-gradient(50deg, darken($brand-color, 15%), $brand-color);
 }
