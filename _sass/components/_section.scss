@@ -8,7 +8,7 @@
   }
 
 .section--brand {
-  background: linear-gradient(50deg, darken($brand-color, 15%), $brand-color);
+  background-color: $brand-color;
 }
 
 .section--small {

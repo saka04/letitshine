@@ -2,13 +2,31 @@ fr:
   nav:
     about: A propos
     services: Services
-    contact: Contact 
+    contact: Contact
   about:
     title: Hello! Moi c'est Masha. 
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus quam, commodo tincidunt neque. Proin neque magna, vulputate sed cursus id, ultrices vel nunc. Pellentesque quis justo et lorem luctus ultrices. In hac habitasse platea dictumst. Suspendisse at metus eu ex feugiat faucibus eget et urna. Sed malesuada ultrices aliquam. Fusce ligula nisl, rhoncus vel imperdiet eu, sagittis et diam. Nunc facilisis lectus eget est tincidunt consectetur. Nullam ultricies maximus placerat. Ut lacinia gravida massa, quis laoreet lectus hendrerit vel.
   services:
     weddings:
       title: Mariages
+      item-1: Sit nulla nemo sapiente.
+      item-2: Amet iusto ipsum praesentium!
+      item-3: Possimus quae, illo quaerat?
+      item-4: Error rem, amet id.
+    events:
+      title: Événements
+      item-1: Sit nulla nemo sapiente.
+      item-2: Amet iusto ipsum praesentium!
+      item-3: Possimus quae, illo quaerat?
+      item-4: Error rem, amet id.
+    decoration:
+      title: Décoration
+      item-1: Sit nulla nemo sapiente.
+      item-2: Amet iusto ipsum praesentium!
+      item-3: Possimus quae, illo quaerat?
+      item-4: Error rem, amet id.
+    design:
+      title: Design
       item-1: Sit nulla nemo sapiente.
       item-2: Amet iusto ipsum praesentium!
       item-3: Possimus quae, illo quaerat?
