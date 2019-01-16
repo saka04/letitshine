@@ -18,3 +18,13 @@
 .section--huge {
   padding: $spacing-unit-huge 0;
 }
+
+.section--header {
+  width: 100%;
+  position: fixed;
+  background-color: red;
+
+  a {
+    color: white;
+  }
+}

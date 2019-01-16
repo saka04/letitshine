@@ -5,7 +5,7 @@ var gulpConfig = require('./gulp-config.json');
 module.exports = function(production) {
   var config = {
     resolve: {
-      root: [path.resolve(__dirname, 'assets/javascripts')],
+      root: [path.resolve(__dirname, '/assets/javascripts')],
       extensions: ['', '.js']
     },
     entry: gulpConfig.src.webpack,

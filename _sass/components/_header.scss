@@ -1,0 +1,20 @@
+/*----------------------------------------*\
+  HEADER
+\*----------------------------------------*/
+
+.header {}
+.header__desktop {
+  display: none;
+
+  @include media('md') {
+    display: block;
+  }
+}
+
+.header__mobile {
+  display: block;
+
+  @include media('md') {
+    display: none;
+  }
+}

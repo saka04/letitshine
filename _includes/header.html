@@ -1,69 +1,34 @@
-<header>
-	<div class="box box--primary">
-		<div class="container">
-			<div class="media">
-				<div class="media__left">
-					<a href="/letitshine/"><img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="img-block"></a>
-				</div>
-				<div class="media__body">
-					 <ul class="list-inline mrgt+ pull-right">
-						<li class="pdgh+ pdgb--"><a href="#about" class="nav"> {{ t.nav.about }} </a></li>
-						<li class="pdgh+ pdgb--"><a href="#services" class="nav"> {{ t.nav.services }} </a></li>
-						<li class="pdgh+ pdgb--"><a href="#contact" class="nav"> {{ t.nav.contact }} </a></li>
-					</ul>
-
-				</div>
+<header class="header section section--header">
+	<div class="container header__desktop">
+		<div class="grid">
+			<div class="grid__item w-1/4">
+				<a href="/letitshine/"><img src="{{ "/assets/images/logo-small.png" | prepend: site.baseurl }}" style="width: 110px" class="img-block"></a>
+			</div>
+			<div class="grid__item w-3/4">
+				 <ul class="list-inline mrgt+">
+					<li class="pdgh+ pdgb--"><a href="#about" class="nav"> {{ t.nav.about }} </a></li>
+					<li class="pdgh+ pdgb--"><a href="#services" class="nav"> {{ t.nav.services }} </a></li>
+					<li class="pdgh+ pdgb--"><a href="#contact" class="nav"> {{ t.nav.contact }} </a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
-</header>
+	<div class="container header__mobile">
+		<div class="grid">
+			<div class="grid__item w-1/2">
+				<a href="/letitshine/"><img src="{{ "/assets/images/logo-small.png" | prepend: site.baseurl }}" style="width: 110px" class="img-block"></a>
+			</div>
+			<div class="grid__item w-1/2">
+				<a href="#" data-toggle="collapse" data-target="#header__mobile-links">burger</a>
+			</div>
+		</div>
 
-<!--
-<nav class="nav nav--mobile">
-	<div class="clearfix">
-		<a href="/">
-			<img src="/assets/images/logo.png" class="logo pull-left">
-		</a>
-
-		<div class="hamburger hamburger--collapse pull-right">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"></span>
-			</span>
+		<div id="header__mobile-links" class="collapse">
+			 <ul class="list-stacked list-stacked--divided text-center">
+				<li class="pdgh+ pdgb--"><a href="#about" class="nav"> {{ t.nav.about }} </a></li>
+				<li class="pdgh+ pdgb--"><a href="#services" class="nav"> {{ t.nav.services }} </a></li>
+				<li class="pdgh+ pdgb--"><a href="#contact" class="nav"> {{ t.nav.contact }} </a></li>
+			</ul>
 		</div>
 	</div>
-
-	<ul class="nav-mobile list-stacked list-stacked--tight silde-down">
-		<div class="pdgh- pdgb-">
-			<li class="nav-mobile__item mrbv"><a href="./">Accueil</a></li>
-			<li class="nav-mobile__item mrbv"><span class="nav-mobile__item--border"><a href="./boat.html">Acheter</a></span>
-				<ul class="list-stacked list-stacked--tight">
-					<li class="nav-mobile__item mrbv"><a href="./boat.html" class="pdgl-">Bateau</a></li>
-					<li class="nav-mobile__item mrbv"><a href="./engine.html" class="pdgl-">Moteur</a></li>
-					<li class="nav-mobile__item mrbv"><a href="./trailer.html" class="pdgl-">Remorque</a></li>
-					<li class="nav-mobile__item nav-mobile__item--noborder  mrbv"><a href="./occasion.html" class="pdgl-">Stock & occasion</a></li>
-				</ul>
-			</li>
-			<li class="nav-mobile__item mrbv"><a href="./shipyard.html">Chantier naval</a></li>
-			<li class="nav-mobile__item nav-mobile__item--noborder mrbv"><a href="./contact.html">Contact</a></li>
-		</div>
-	</ul>
-</nav>
-
-<nav class="nav nav--desktop clearfix">
-	<img src="/assets/images/logo.png" class="logo pull-left">
-
-	<ul class="list-inline list-inline--tight mrgt pull-right">
-		<li class="nav-item__primary pdgh- pdgb-- home-active"><a href="./">Accueil</a></li>
-		<li class="nav-item__primary js-toggle-subnav pdgh- pdgb-- boat-active relative-parent"><a href="./boat.html">Acheter</a>
-			<ul class="nav__sublist list-stacked list-stacked--tight hidden">
-				<li class="nav-item__secondary text-center pdgv-- pdgt--"><a href="./boat.html">Bateau</a></li>
-				<li class="nav-item__secondary text-center pdgv-- engine-active"><a href="./engine.html">Moteur</a></li>
-				<li class="nav-item__secondary text-center pdgv-- trailer-active"><a href="./trailer.html">Remorque</a></li>
-				<li class="nav-item__secondary text-center pdgv-- occasion-active"><a href="./occasion.html">Stock & occasion</a></li>
-			</ul>
-		</li>
-		<li class="nav-item__primary pdgh- pdgb-- shipyard-active"><a href="./shipyard.html">Chantier naval</a></li>
-		<li class="nav-item__primary pdgh- pdgb-- contact-active"><a href="./contact.html">Contact</a></li>
-	</ul>
-</nav>
--->
+</header>
