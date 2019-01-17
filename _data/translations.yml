@@ -4,8 +4,9 @@ fr:
     services: Services
     contact: Contact
   about:
-    title: Hello! Moi c'est Masha. 
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus quam, commodo tincidunt neque. Proin neque magna, vulputate sed cursus id, ultrices vel nunc. Pellentesque quis justo et lorem luctus ultrices. In hac habitasse platea dictumst. Suspendisse at metus eu ex feugiat faucibus eget et urna. Sed malesuada ultrices aliquam. Fusce ligula nisl, rhoncus vel imperdiet eu, sagittis et diam. Nunc facilisis lectus eget est tincidunt consectetur. Nullam ultricies maximus placerat. Ut lacinia gravida massa, quis laoreet lectus hendrerit vel.
+    title: Bienvenue! Moi c'est Masha. 
+    content-1: Voilà mon univers. Je décore, je gère et j'organise pour vous. Le design est ma passion, et j'ai eu la chance d'en faire mon métier. J'aime me concentrer sur les détails et apporter cette petite touche qui donne à l'ensemble un aspect parfait.
+    content-2: Mariages, décoration, organisation personnelle... Let it shine! c'est le symbole de perfection pour vos intérieurs et vos événements. Toujours à l'écoute et suivant vos envies, je prends en charge la création et la réalisation de vos voeux les plus précieux pour un souvenir inoubliable!
   services:
     weddings:
       title: Mariages
