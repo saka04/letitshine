@@ -2,11 +2,9 @@
   DEFAULT
 \*----------------------------------------*/
 
-.img-resize{}
+.img-resize{
+	max-width: 50%;
+}
 	.img-resize__header{
 		max-width: 20%;
-	}
-
-	.img-resize__about{
-		max-width: 50%;
 	}
