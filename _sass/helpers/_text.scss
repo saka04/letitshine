@@ -9,3 +9,26 @@
 .text-alt-black {
   color: $alt-black;
 }
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+h1:before,
+h1:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+h1:before {
+    right: 2em;
+    margin-left: 0 ;
+}
+h1:after {
+    left: 2em;
+    margin-right:0;
+}
