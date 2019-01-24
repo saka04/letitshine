@@ -4,12 +4,11 @@
 
 .section {}
   .section__title {
-    color: $alt-white;
-    font-weight: bold;
+    color: $alt-black;
   }
 
 .section--brand {
-  background-color: $brand-color;
+  background-color: $second-brand-color;
 }
 
 .section--small {
@@ -23,9 +22,13 @@
 .section--header {
   width: 100%;
   position: fixed;
-  background-color: $alt-color;
+  background-color: $second-brand-color;
 
   a {
     color: white;
   }
+}
+
+.section--footer {
+   background-color: $second-brand-color;
 }

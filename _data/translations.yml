@@ -9,41 +9,20 @@ fr:
     content-1: Voilà mon univers. Je décore, je gère et j'organise pour vous. Le design est ma passion, et j'ai eu la chance d'en faire mon métier. J'aime me concentrer sur les détails et apporter cette petite touche qui donne à l'ensemble un aspect parfait.
     content-2: Mariages, décoration, organisation personnelle... Let it shine! c'est le symbole de perfection pour vos intérieurs et vos événements. Toujours à l'écoute et suivant vos envies, je prends en charge la création et la réalisation de vos voeux les plus précieux pour un souvenir inoubliable!
   services:
-    weddings:
-      title: Mariages
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
     events:
-      title: Événements
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
-    decoration:
-      title: Décoration
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
+      title: Mariages & Événements
+      item-1: Définition d'une formule adaptée
+      item-2: Gestion et organisation
+      item-3: Suivi des opérations
     design:
-      title: Design
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
+      title: Décoration & Design
+      item-1: Compréhension des besoins
+      item-2: Établissement d'un budget
+      item-3: Planification et élaboration
     organizer:
-      title: Gestion d'espace
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
-    work:
-      title: Réalisations
-      item-1: Sit nulla nemo sapiente.
-      item-2: Amet iusto ipsum praesentium!
-      item-3: Possimus quae, illo quaerat?
-      item-4: Error rem, amet id.
+      title: Gestion d'espace personnel
+      item-1: Analyse des besoins
+      item-2: Recherche de solutions
+      item-3: Transformation de l'espace
   realisations:
     title: Réalisations

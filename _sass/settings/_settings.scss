@@ -13,7 +13,7 @@ $rtl:                               false;
  * Colors
  */
 
-$brand-color:                       #f7c3ce;
+$brand-color:                       #ffd3dc;
 
 $alt-white:                         #fff;
 $alt-color-lighter:                 #e8ebee;
@@ -27,18 +27,19 @@ $brand-color-dark:                  #dd8699;
 $brand-color-lighter:               #f4b0bf;
 $brand-color-light:                 #f4bcc7;
 $second-brand-color:                #cccccc;
+$second-brand-color-light:          lighten($second-brand-color, 18%);
 
 /**
  * Typography
  */
 
-$font-family-default:               -apple-system, BlinkMacSystemFont,
-                                    'Playfair Display',
+$font-family-default:               'Cormorant Garamond', serif,
+                                    -apple-system, BlinkMacSystemFont,
                                     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
                                     'Fira Sans', 'Droid Sans', 'Helvetica Neue',
                                     sans-serif;
 
-$font-size-default:                 16px;
+$font-size-default:                 18px;
 $font-size-small:                   .75rem;
 $font-size-large:                   1.5rem;
 
@@ -135,10 +136,10 @@ $btn-default-bkg-color:             $alt-color-lighter;
 $btn-default-hover-bkg-color:       lighten($btn-default-bkg-color, 3%);
 $btn-default-active-bkg-color:      darken($btn-default-bkg-color, 5%);
 
-$btn-primary-color:                 white;
+$btn-primary-color:                 $alt-white;
 $btn-primary-bkg-color:             $brand-color;
-$btn-primary-hover-bkg-color:       darken($btn-primary-bkg-color, 10%);
-$btn-primary-active-bkg-color:      darken($btn-primary-bkg-color, 15%);
+$btn-primary-hover-bkg-color:       darken($btn-primary-bkg-color, 5%);
+$btn-primary-active-bkg-color:      darken($btn-primary-bkg-color, 10%);
 
 
 /**
@@ -186,10 +187,10 @@ $list-separator-style:              1px solid rgba(0, 0, 0, .15);
  */
 
 $box-default-color:                 inherit;
-$box-default-bkg-color:             white;
+$box-default-bkg-color:             $second-brand-color-light;
 
 $box-primary-color:                 inherit;
-$box-primary-bkg-color:             white;
+$box-primary-bkg-color:             $alt-white;
 
 
 /**
