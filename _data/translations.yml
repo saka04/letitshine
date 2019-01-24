@@ -2,6 +2,7 @@ fr:
   nav:
     about: A propos
     services: Services
+    work: Réalisations
     contact: Contact
   about:
     title: Bienvenue! Moi c'est Masha. 
@@ -44,3 +45,5 @@ fr:
       item-2: Amet iusto ipsum praesentium!
       item-3: Possimus quae, illo quaerat?
       item-4: Error rem, amet id.
+  realisations:
+    title: Réalisations
