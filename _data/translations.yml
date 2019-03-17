@@ -5,24 +5,20 @@ fr:
     work: Réalisations
     contact: Contact
   about:
-    title: Bienvenue! Moi c'est Masha. 
-    content-1: Voilà mon univers. Je décore, je gère et j'organise pour vous. Le design est ma passion, et j'ai eu la chance d'en faire mon métier. J'aime me concentrer sur les détails et apporter cette petite touche qui donne à l'ensemble un aspect parfait.
-    content-2: Mariages, décoration, organisation personnelle... Let it shine! c'est le symbole de perfection pour vos intérieurs et vos événements. Toujours à l'écoute et suivant vos envies, je prends en charge la création et la réalisation de vos voeux les plus précieux pour un souvenir inoubliable!
+    title-1: Se sentir bien chez soi, c'est primordial.
+    title-2: Evident? Soit, mais dans la vie quotidienne, c'est une autre histoire...
+    content-1: Parfois nous n'en sommes pas conscients, mais le désordre a un impact direct sur notre bien-être. Nos habitudes de consommation nous entraînent à accumuler des biens sans toujours considérer leur place concrète dans nos foyers.
+    content-2: Architecte d'intérieur spécialisée en décoration et organisation d'espace, Masha Wojcik, fondatrice de Let it shine!, offre à ses clients des solutions en (ré)organisation d'espaces personnels.
+    content-3: Cuisine, chambre à coucher, salon, salle de bain... Tous les espaces peuvent être repensés pour une répartition pratique dans la vie quotidienne tout en incluant un aspect "design". Let it Shine! vous offre ainsi un nouveau "chez-vous" à l'atmosphère apaisante.
   services:
-    events:
+    organisation:
       title: Organisation
-      item-1: Définition d'une formule adaptée
-      item-2: Gestion et organisation
-      item-3: Suivi des opérations
+      item-1: Home Crush
+      item-2: Organiser ensemble
+      item-3: Conseil
     design:
-      title: Design
-      item-1: Compréhension des besoins
-      item-2: Établissement d'un budget
-      item-3: Planification et élaboration
-    organizer:
-      title: Gestion d'espace personnel
-      item-1: Analyse des besoins
-      item-2: Recherche de solutions
-      item-3: Transformation de l'espace
+      title: Décoration
+      item-1: Décoration d'intérieur
+      item-2: Conseil
   realisations:
     title: Réalisations

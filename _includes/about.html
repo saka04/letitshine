@@ -1,18 +1,20 @@
-<section class="section section--huge" id="about">
-	<div class="container mrgt+">
-		<h4 class="text-center text-bold mrgb+">Créateur de mariages</h2>
-		<img class="align-center img-resize__about mrgb+" src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}">
-		<div class="grid grid--multiline">
-			<div class="sm-w-1/2 grid__item">
-				<img class="align-center img-resize" src="{{ "/assets/images/femme-small.jpg" | prepend: site.baseurl }}">
-			</div>
-			<div class="sm-w-1/2 grid__item xs-mrgt">
-				<div class="box box--primary about">
-					<p>{{ t.about.title}}</p>
-					<p>{{ t.about.content-1 }}</p>
-					<p>{{ t.about.content-2 }}</p>
-				</div>
-			</div>
+<section class="section section--huge">
+	<div class="">
+		<img src="assets/images/deco_019-crop.jpg" class="img-responsive banner">
+		<div class="box box--primary about">
+			<p class="text-bold">{{ t.about.title-1}}<br>
+			{{ t.about.title-2}}</p>
 		</div>
+	</div>
+	<div class="media media--responsive container mrgt++" id="about">
+    	<div class="media__left pdgt+">
+    		<img src="assets/images/illu-about.jpg">
+    	</div>
+    	<div class="media__body box box--primary">
+    		<h2 class="mrgt--"></h2>
+    		<p>{{ t.about.content-1 }}</p>
+			<p>{{ t.about.content-2 }}</p>
+			<p>{{ t.about.content-3 }}</p>
+       	</div>
 	</div>
 </section>
