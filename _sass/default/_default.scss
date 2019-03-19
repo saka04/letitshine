@@ -5,13 +5,18 @@
 .img-resize{
 	max-width: 50%;
 }
-	.img-resize__about{
+	.img-resize__sm{
+		max-width: 50%;
+	}
+
+	.img-resize__md{
+		max-width: 60%;
+	}
+
+	.img-resize__lg{
 		max-width: 80%;
 	}
 
-	.img-resize__header{
-		max-width: 70%;
-	}
 
 .subserv{
 	padding:$btn-small-padding;

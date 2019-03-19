@@ -4,22 +4,36 @@ fr:
     services: Services
     work: Réalisations
     contact: Contact
-  about:
+  banner:
     title-1: Se sentir bien chez soi, c'est primordial.
     title-2: C'est évident, mais dans la vie quotidienne, c'est une autre histoire...
+  about:
+    title: Le bien-être ordonné
     content-1: Nous en sommes rarement conscients, mais le désordre a un impact direct sur notre bien-être. Nos habitudes de consommation nous entraînent à accumuler des biens sans toujours considérer leur place concrète dans nos foyers.
     content-2: Architecte d'intérieur spécialisée en décoration et organisation d'espace, Masha Wojcik, fondatrice de Let it shine!, offre à ses clients des solutions en (ré)organisation d'espaces personnels.
     content-3: Cuisine, chambre à coucher, salon, salle de bain... Tous les espaces peuvent être repensés pour une répartition pratique dans la vie quotidienne tout en incluant un aspect "design".
     content-4: Let it Shine! vous offre ainsi un nouveau "chez-vous" à l'atmosphère apaisante.
   services:
-    organisation:
+    title: Services
+    service-1:
       title: Organisation
+      description-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus.
+      description-2: 
       item-1: Home Crush
       item-2: Organiser ensemble
       item-3: Conseil
-    design:
+    service-2:
       title: Décoration
+      description-1: Mauris vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
+      description-2: 
       item-1: Décoration d'intérieur
       item-2: Conseil
   realisations:
     title: Réalisations
+  temoignages:
+    title: Ils en parlent le mieux
+    quote-1: "Metta: trop bien trop bien trop bien trop bien trop bien"
+    quote-2:
+    quote-3:
+  contact:
+    title: Contact & Partenaires
