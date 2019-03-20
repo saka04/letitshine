@@ -2,22 +2,21 @@
   DEFAULT
 \*----------------------------------------*/
 
-.img-resize{
-	max-width: 50%;
-}
-	.img-resize__sm{
+.resize{}
+	.resize__sm{
 		max-width: 50%;
 	}
 
-	.img-resize__md{
+	.resize__md{
 		max-width: 60%;
 	}
 
-	.img-resize__lg{
+	.resize__lg{
 		max-width: 80%;
 	}
 
-
 .subserv{
 	padding:$btn-small-padding;
+	margin-right:1.3rem; 
+	margin-bottom:1.3rem;
 }
