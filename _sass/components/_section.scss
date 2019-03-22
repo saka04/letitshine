@@ -15,6 +15,10 @@
   padding: $spacing-unit-small 0;
 }
 
+.section--large {
+  padding: $spacing-unit-large 0;
+}
+
 .section--huge {
   padding: $spacing-unit-huge 0;
 }
@@ -23,7 +27,7 @@
   width: 100%;
   position: fixed;
   background-color: $alt-white;
-  z-index: 9999;
+  z-index: 1;
 
   a {
     color: $alt-black;
