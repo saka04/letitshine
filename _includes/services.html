@@ -3,36 +3,94 @@
 		<h1 class="section__title mrgv+ text-center">{{ t.services.title }}</h1>
 		<div class="grid grid--multiline mrg+">
 			<div class="sm-w-3/5 grid__item">
-    			<div class="box box--primary">
-		    		<h2 class="mrgt--" >{{ t.services.service-1.title }}</h2>
-		    		<p>{{ t.services.service-1.description-1 }}</p>
+				<div class="box box--primary pdgb--">
+					<h2 class="mrgt--" >{{ t.services.service-1.title }}</h2>
+					<p>{{ t.services.service-1.description-1 }}</p>
 					<p>{{ t.services.service-1.description-2 }}</p>
 				</div>
-				<div class="container">
-					<button class="subserv btn btn--primary text-bold">Home Crush</button>
-					<button class="subserv btn btn--primary text-bold">Organiser Ensemble</button>
-					<button class="subserv btn btn--primary text-bold">Conseil</button>
-				</div>
-	       	</div>
+			</div>
 			<div class="sm-w-2/5 grid__item">
-	    		<img src="assets/images/illu-orga.jpg" class="img-block align-center" alt="Coton">
-	    	</div>
+				<img src="assets/images/illu-orga.jpg" class="img-block align-center" alt="Coton">
+			</div>
+				
+			<div class="container">
+				<div class="box box--primary pdgv--">
+					<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Crush')">{{ t.services.service-1.subservice-1.title }}</button>
+					<button class="subserv2 btn btn--primary text-bold tablinks" onclick="openService(event, 'Together')">{{ t.services.service-1.subservice-2.title }}</button>
+					<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice')">{{ t.services.service-1.subservice-3.title }}</button>
+				
+
+					<div id="Crush" class="tabcontent">
+						<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+						<h3>{{ t.services.service-1.subservice-1.title }}</h3>
+						<p>{{ t.services.service-1.subservice-1.description }}</p>
+					</div>
+
+					<div id="Together" class="tabcontent">
+						<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+						<h3>{{ t.services.service-1.subservice-2.title }}</h3>
+						<p>{{ t.services.service-1.subservice-2.description }}</p> 
+					</div>
+
+					<div id="Advice" class="tabcontent">
+						<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+						<h3>{{ t.services.service-1.subservice-3.title }}</h3>
+						<p>{{ t.services.service-1.subservice-3.description }}</p>
+					</div>
+				</div>
+			</div>
+		
 		</div>
+
+		
 		<div class="grid grid--multiline mrg+">
-	    	<div class="sm-w-3/5 grid__item">
-    			<div class="box box--primary">
-		    		<h2 class="mrgt--">{{ t.services.service-2.title }}</h2>
-		    		<p>{{ t.services.service-2.description-1 }}</p>
+			<div class="sm-w-3/5 grid__item">
+				<div class="box box--primary">
+					<h2 class="mrgt--">{{ t.services.service-2.title }}</h2>
+					<p>{{ t.services.service-2.description-1 }}</p>
 					<p>{{ t.services.service-2.description-2 }}</p>
 				</div>
-				<div class="container">
-					<button class="subserv btn btn--primary text-bold">Décoration d'intérieur</button>
-					<button class="subserv btn btn--primary text-bold">Conseil</button>
+			</div>
+			<div class="sm-w-2/5 grid__item">
+				<img src="assets/images/illu-deco.jpg" class="img-block resize__sm align-center">
+			</div>
+
+			<div class="container">
+				<div class="box box--primary pdgv--">
+					<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Design')">Décoration d'intérieur</button>
+					<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice2')">Conseil</button>
+
+					<div id="Design" class="tabcontent">
+						<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+						<h3>{{ t.services.service-2.subservice-1.title }}</h3>
+						<p>{{ t.services.service-2.subservice-1.description }}</p>
+					</div>
+
+					<div id="Advice2" class="tabcontent">
+						<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+						<h3>{{ t.services.service-2.subservice-2.title }}</h3>
+						<p>{{ t.services.service-2.subservice-2.description }}</p> 
+					</div>
+
 				</div>
-	       	</div>
-	       	<div class="sm-w-2/5 grid__item">
-	    		<img src="assets/images/illu-deco.jpg" class="img-block resize__sm align-center">
-	    	</div>
+			</div>
 		</div>
 	</div>
 </section>
+
+
+<script>
+function openService(evt, service) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(service).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>

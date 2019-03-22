@@ -19,15 +19,25 @@ fr:
       title: Organisation
       description-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus.
       description-2: 
-      item-1: Home Crush
-      item-2: Organiser ensemble
-      item-3: Conseil
+      subservice-1:
+        title: Home Crush
+        description: Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus.
+      subservice-2: 
+        title: Organiser ensemble
+        description: Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus.
+      subservice-3:
+        title: Conseil
+        description: Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus. 
     service-2:
       title: Décoration
       description-1: Mauris vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
       description-2: 
-      item-1: Décoration d'intérieur
-      item-2: Conseil
+      subservice-1:
+        title: Décoration d'intérieur
+        description: Mauris1 vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
+      subservice-2:
+        title: Conseil
+        description: Mauris2 vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
   work:
     title: Réalisations
   quotes:
