@@ -5,7 +5,7 @@
 
 .banner{
     width:100%;
-    height:90vh;
+    height:100vh;
 }
 
 .banner-home{
@@ -13,7 +13,8 @@
 	background:url(images/deco_019.jpg);
 	background-position:center;
 	background-size:cover;
-	top:70px;
+	background-repeat:none;
+	top:40px;
 }
 
 .bannertext{
