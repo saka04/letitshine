@@ -4,13 +4,13 @@
 		<div class="grid grid--multiline">
 			<div class="sm-w-1/2 grid__item">
 				<address class="text-center">
-					<span class="text-bold">Let it shine!</span><br>
-					Masha Wojcik<br>
-					Founder<br>
-					<a href="mailto:masha@letitshine.ch" class="contact">masha@letitshine.ch</a><br>
-					+41 (0) 79 275 90 63
+					<span class="text-bold">{{ t.contact.company }}</span><br>
+					{{ t.contact.name }}<br>
+					{{ t.contact.function }}<br>
+					<a href="mailto:masha@letitshine.ch" class="contact">{{ t.contact.email }}</a><br>
+					{{ t.contact.phone }}
 				</address>
-				<p class="text-center">Premier RDV offert, devis gratuit et sans engagement!</p>
+				<p class="text-center">{{ t.contact.catch }}</p>
 			</div>
 			<div class="sm-w-1/2 grid__item xs-mrgt">
 				<!--<div class="grid grid--multiline">

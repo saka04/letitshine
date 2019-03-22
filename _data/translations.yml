@@ -28,12 +28,18 @@ fr:
       description-2: 
       item-1: Décoration d'intérieur
       item-2: Conseil
-  realisations:
+  work:
     title: Réalisations
-  temoignages:
+  quotes:
     title: Ils en parlent le mieux
     quote-1: "Meta: Cela fait plusieurs mois que Masha travaille dans mon appartement, je suis plus qu'heureuse! Sa vision calibrée sur mes habitudes me font redécouvrir mon appart à chaque fois!"
     quote-2:
     quote-3:
   contact:
     title: Contact & Partenaires
+    company: Let it shine!
+    name: Masha Wojcik
+    function: Founder
+    email: masha@letitshine.ch
+    phone: +41 (0) 79 275 90 63
+    catch: Premier RDV offert, devis gratuit et sans engagement!
