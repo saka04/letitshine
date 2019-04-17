@@ -1,36 +1,19 @@
-<header class="header section section--header">
-	<div class="container header__desktop">
-		<div class="grid mrgt-- mrgb-- ">
-			<div class="grid__item w-1/4">
-				<a href="/letitshine/"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="align-right resize__lg"></a>
-			</div>
-			<div class="grid__item w-3/4">
-				<ul class="list-inline pdgt- pull-right">
-					<li class="pdgh+"><a href="#about" class="nav"> {{ t.nav.about }} </a></li>
-					<li class="pdgh+"><a href="#services" class="nav"> {{ t.nav.services }} </a></li>
-					<li class="pdgh+"><a href="#work" class="nav"> {{ t.nav.work }} </a></li>
-					<li class="pdgh+"><a href="#contact" class="nav"> {{ t.nav.contact }} </a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container header__mobile">
-		<div class="grid">
-			<div class="grid__item w-1/2">
-				<a href="/letitshine/"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="img-block resize__md"></a>
-			</div>
-			<div class="grid__item w-1/2">
-				<a href="#" data-toggle="collapse" data-target="#header__mobile-links"><i class="mdi mdi-menu"></i></a>
-			</div>
+<header class="header">
+	<div class="container">
+		<div class="header__desktop">
+			<a href="/letitshine/" class="header__logo"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}"></a>
+			<ul class="nav list-inline">
+				<li><a href="#about" class="nav__link"> {{ t.nav.about }} </a></li>
+				<li><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
+				<li><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
+				<li><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
+			</ul>
 		</div>
 
-		<div id="header__mobile-links" class="collapse">
-			 <ul class="list-stacked list-stacked--divided text-center">
-				<li class="pdgh+ pdgb--"><a href="#about" class="nav"> {{ t.nav.about }} </a></li>
-				<li class="pdgh+ pdgb--"><a href="#services" class="nav"> {{ t.nav.services }} </a></li>
-				<li class="pdgh+ pdgb--"><a href="#work" class="nav"> {{ t.nav.work }} </a></li>
-				<li class="pdgh+ pdgb--"><a href="#contact" class="nav"> {{ t.nav.contact }} </a></li>
-			</ul>
+		<div class="header__mobile">
+			<a href="/letitshine/" class="header__logo"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}"></a>
+			<a href="#" class="header__burger"><i class="mdi mdi-menu"></i></a>
+			</div>
 		</div>
 	</div>
 </header>

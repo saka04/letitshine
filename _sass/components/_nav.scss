@@ -2,11 +2,16 @@
   NAV
 \*----------------------------------------*/
 
-.nav {
+.nav {}
+.nav__link + .nav__link {
+  padding-left: $spacing-unit-small;
+}
+
+.nav__link {
 	font-size: 20px;
 	color: $alt-color-light;
 	text-decoration: none;
-	
+
 	&:hover {
 		color: $alt-color;
 	}

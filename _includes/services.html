@@ -1,71 +1,68 @@
 <section class="section section--huge" id="services">
 	<div class="container">
 		<h1 class="section__title mrgb+ text-center">{{ t.services.title }}</h1>
-		<div class="grid grid--multiline mrg+">
-			<div class="sm-w-3/5 grid__item">
-				<div class="box box--primary ">
-					<h2 class="mrgt--" >{{ t.services.service-1.title }}</h2>
-					<p>{{ t.services.service-1.description-1 }}</p>
-					<p>{{ t.services.service-1.description-2 }}</p>
-				</div>
-			</div>
-			<div class="sm-w-2/5 grid__item pusher pusher--middle">
+		<div class="media media--responsive mrgh0 md-mrgh">
+			<div class="media__right">
+				<!-- TODO: resize 400x400 -->
 				<img src="assets/images/illu-orga.jpg" class="img-block align-center" alt="Coton">
 			</div>
-			
-			<div class="box box--primary pdgl+">
-				<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Crush')">{{ t.services.service-1.subservice-1.title }}</button>
-				<button class="subserv2 btn btn--primary text-bold tablinks" onclick="openService(event, 'Together')">{{ t.services.service-1.subservice-2.title }}</button>
-				<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice')">{{ t.services.service-1.subservice-3.title }}</button>
-				<div id="Crush" class="tabcontent">
-					<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-					<h3>{{ t.services.service-1.subservice-1.title }}</h3>
-					<p>{{ t.services.service-1.subservice-1.description }}</p>
-				</div>
-
-				<div id="Together" class="tabcontent">
-					<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-					<h3>{{ t.services.service-1.subservice-2.title }}</h3>
-					<p>{{ t.services.service-1.subservice-2.description }}</p> 
-				</div>
-
-				<div id="Advice" class="tabcontent">
-					<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-					<h3>{{ t.services.service-1.subservice-3.title }}</h3>
-					<p>{{ t.services.service-1.subservice-3.description }}</p>
-				</div>
+			<div class="media__body">
+				<h2 class="mrgt--" >{{ t.services.service-1.title }}</h2>
+				<p>{{ t.services.service-1.description-1 }}</p>
+				<p>{{ t.services.service-1.description-2 }}</p>
 			</div>
 		</div>
 
-		<div class="grid grid--multiline mrg+">
-			<div class="sm-w-3/5 grid__item mrgt+">
-				<div class="box box--primary">
-					<h2 class="mrgt--">{{ t.services.service-2.title }}</h2>
-					<p>{{ t.services.service-2.description-1 }}</p>
-					<p>{{ t.services.service-2.description-2 }}</p>
-				</div>
-			</div>
-			<div class="sm-w-2/5 grid__item pusher pusher--middle">
-				<img src="assets/images/illu-deco.jpg" class="img-block resize__sm align-center">
+		<div class="mrgh0 md-mrgh mrgb++">
+			<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Crush')">{{ t.services.service-1.subservice-1.title }}</button>
+			<button class="subserv2 btn btn--primary text-bold tablinks" onclick="openService(event, 'Together')">{{ t.services.service-1.subservice-2.title }}</button>
+			<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice')">{{ t.services.service-1.subservice-3.title }}</button>
+			<div id="Crush" class="tabcontent">
+				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<h3>{{ t.services.service-1.subservice-1.title }}</h3>
+				<p>{{ t.services.service-1.subservice-1.description }}</p>
 			</div>
 
-			<div class="box box--primary pdgl+">
-				<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Design')">Décoration d'intérieur</button>
-				<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice2')">Conseil</button>
-
-				<div id="Design" class="tabcontent">
-					<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-					<h3>{{ t.services.service-2.subservice-1.title }}</h3>
-					<p>{{ t.services.service-2.subservice-1.description }}</p>
-				</div>
-
-				<div id="Advice2" class="tabcontent">
-					<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-					<h3>{{ t.services.service-2.subservice-2.title }}</h3>
-					<p>{{ t.services.service-2.subservice-2.description }}</p> 
-				</div>
+			<div id="Together" class="tabcontent">
+				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<h3>{{ t.services.service-1.subservice-2.title }}</h3>
+				<p>{{ t.services.service-1.subservice-2.description }}</p>
 			</div>
 
+			<div id="Advice" class="tabcontent">
+				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<h3>{{ t.services.service-1.subservice-3.title }}</h3>
+				<p>{{ t.services.service-1.subservice-3.description }}</p>
+			</div>
+		</div>
+
+		<div class="media media--responsive mrgh0 md-mrgh">
+			<div class="media__right">
+				<!-- TODO: resize 400x400 -->
+				<img src="assets/images/illu-deco.jpg" class="img-block align-center">
+			</div>
+			<div class="media__body">
+				<h2 class="mrgt--">{{ t.services.service-2.title }}</h2>
+				<p>{{ t.services.service-2.description-1 }}</p>
+				<p>{{ t.services.service-2.description-2 }}</p>
+			</div>
+		</div>
+
+		<div class="mrgh0 md-mrgh mrgb++">
+			<button class="subserv btn btn--primary text-bold tablinks" onclick="openService(event, 'Design')">Décoration d'intérieur</button>
+			<button class="subserv3 btn btn--primary text-bold tablinks" onclick="openService(event, 'Advice2')">Conseil</button>
+
+			<div id="Design" class="tabcontent">
+				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<h3>{{ t.services.service-2.subservice-1.title }}</h3>
+				<p>{{ t.services.service-2.subservice-1.description }}</p>
+			</div>
+
+			<div id="Advice2" class="tabcontent">
+				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<h3>{{ t.services.service-2.subservice-2.title }}</h3>
+				<p>{{ t.services.service-2.subservice-2.description }}</p>
+			</div>
 		</div>
 	</div>
 </section>

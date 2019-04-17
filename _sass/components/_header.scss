@@ -2,19 +2,49 @@
   HEADER
 \*----------------------------------------*/
 
-.header {}
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: $alt-white;
+  z-index: 100;
+  // box-shadow: 1px 1px 1px 1px $alt-color-lighter; As you wish
+  border-bottom: 1px solid $alt-color-lighter;
+}
+
+.header__desktop,
+.header__mobile {
+  padding: $spacing-unit-small 0;
+}
+
 .header__desktop {
   display: none;
 
   @include media('md') {
-    display: block;
+    display: flex;
   }
 }
 
 .header__mobile {
-  display: block;
+  display: flex;
 
   @include media('md') {
     display: none;
   }
 }
+
+  .header__logo {
+    flex-grow: 1;
+
+    img {
+      max-width: 200px;
+    }
+  }
+
+  .header__burger {
+    align-self: center;
+
+    .mdi-menu {
+      color: $alt-color;
+      font-size: rem(40px);
+    }
+  }
