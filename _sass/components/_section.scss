@@ -15,6 +15,12 @@
   padding: $spacing-unit-small 0;
 }
 
+@media screen and (max-width: 1200px){
+  .section--small{
+    padding: $spacing-unit-small $spacing-unit-large;
+  }
+}
+
 .section--large {
   padding: $spacing-unit-large 0;
 }
