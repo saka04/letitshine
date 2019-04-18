@@ -1,51 +1,55 @@
 /*----------------------------------------*\
   TEXT
-  \*----------------------------------------*/
+\*----------------------------------------*/
 
-  .text-alt-white {
-    color: $alt-white;
+.text-alt-white {
+  color: $alt-white;
+}
+
+.text-alt-black {
+  color: $alt-black;
+}
+
+h1 {
+  text-align: left;
+  overflow: hidden;
+}
+
+@include media('md') {
+  h1 {
+    text-align: center;
   }
 
-  .text-alt-black {
-    color: $alt-black;
+  h1:before, h1:after {
+    background-color: $alt-black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
   }
 
-  @media screen and (min-width: 1024px){
-
-    h1 {
-      overflow: hidden;
-    }
-
-    h1:before, h1:after {
-      background-color: $alt-black;
-      content: "";
-      display: inline-block;
-      height: 1px;
-      position: relative;
-      vertical-align: middle;
-      width: 15%;
-    }
-
-    h1:before {
-      right: 2em;
-      margin-left: 0 ;
-    }
-
-    h1:after {
-      left: 2em;
-      margin-right:0;
-    }
+  h1:before {
+    right: 3%;
+    margin-left: 0 ;
   }
 
-  h3{
-   color: $alt-color-dark;
-   margin-top: .5em;
-   margin-bottom: 1em;
- }
+  h1:after {
+    left: 3%;
+    margin-right:0;
+  }
+}
 
- .quotes{
+h3 {
+  color: $alt-color-dark;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.quotes{
   font-family: Arizonia;
   font-size: 2em;
   font-weight: bold;
-  padding-bottom:-5%;
+  padding-bottom: -5%;
 }

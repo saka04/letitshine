@@ -2,8 +2,36 @@
   TESTIMONY
 \*----------------------------------------*/
 
-.testifier{
-	border-radius: 50%;
-	max-width: 30%;
-	border: solid .7px $element-color;
-}
+.testimony {}
+  .testimony__img {
+    width: 150px;
+  	border-radius: 50%;
+  	border: solid .7px $element-color;
+  }
+
+  .testimony__content {
+    quotes: "“" "”" "‘" "’";
+    position: relative;
+    padding-left: $spacing-unit-default;
+
+    &::before,
+    &::after {
+      color: $alt-color-light;
+      position: absolute;
+
+      font-size: rem(60px);
+      line-height: .5;
+    }
+
+    &::before {
+      content: open-quote;
+      top: 6px;
+      left: -4px;
+    }
+
+    &::after {
+      content: close-quote;
+      bottom: -19px;
+      margin-left: $spacing-unit-tiny;
+    }
+  }
