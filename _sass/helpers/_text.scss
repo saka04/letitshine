@@ -10,10 +10,14 @@
   color: $alt-black;
 }
 
-@media screen and (min-width: 1024px){
+h1 {
+  text-align: left;
+  overflow: hidden;
+}
 
+@include media('md') {
   h1 {
-    overflow: hidden;
+    text-align: center;
   }
 
   h1:before, h1:after {
@@ -27,18 +31,26 @@
   }
 
   h1:before {
-    right: 2em;
+    right: 3%;
     margin-left: 0 ;
   }
 
-  h1:after {
-    left: 2em;
+  h1:after { 
+    left: 3%;
     margin-right:0;
   }
 }
 
-h3{
- color: $alt-color-dark;
- margin-top: .5em;
- margin-bottom: 1em;
+
+h3 {
+  color: $alt-color-dark;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.quotes{
+  font-family: Arizonia;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: -5%;
 }

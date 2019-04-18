@@ -1,0 +1,19 @@
+/*----------------------------------------*\
+  MEDIA
+  Override media component from Kanbasu
+\*----------------------------------------*/
+
+.media {}
+  .media__right,
+  .media__left {
+    width: 100%;
+
+    @include media('md') {
+      width: auto;
+    }
+  }
+
+  .media__img {
+    max-width: 250px;
+    margin: 0 auto;
+  }

@@ -7,7 +7,6 @@
   position: fixed;
   background-color: $alt-white;
   z-index: 100;
-  // box-shadow: 1px 1px 1px 1px $alt-color-lighter; As you wish
   border-bottom: 1px solid $alt-color-lighter;
 }
 
@@ -20,12 +19,12 @@
   display: none;
 
   @include media('md') {
-    display: flex;
+    display: block;
   }
 }
 
 .header__mobile {
-  display: flex;
+  display: block;
 
   @include media('md') {
     display: none;
@@ -33,11 +32,7 @@
 }
 
   .header__logo {
-    flex-grow: 1;
-
-    img {
-      max-width: 200px;
-    }
+    max-width: 200px;
   }
 
   .header__burger {

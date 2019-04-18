@@ -2,6 +2,7 @@
   NAV
 \*----------------------------------------*/
 
+<<<<<<< HEAD
 .nav {}
 .nav__link + .nav__link {
   padding-left: $spacing-unit-large;
@@ -17,4 +18,27 @@
 		color: $alt-color-light;
 	}
 }
+=======
+.nav {
+  display: flex;
+}
+
+  .nav__logo {
+    flex-grow: 1;
+  }
+
+  .nav__link + .nav__link {
+    padding-left: $spacing-unit-small;
+  }
+
+  .nav__link {
+  	font-size: rem(20px);
+  	color: $alt-color-dark;
+  	text-decoration: none;
+
+  	&:hover {
+  		color: $alt-color-darker;
+  	}
+  }
+>>>>>>> d0a657203c81ef3f1d64b7d1c3513fb886ae516c
 
