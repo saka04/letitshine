@@ -8,9 +8,8 @@ var config             = require('./gulp-config.json'),
     $                  = require('gulp-load-plugins')(),
     browserSync        = require('browser-sync').create(),
     reload             = browserSync.reload,
-    argv               = require('yargs').argv,
     runSequence        = require('run-sequence'),
-    webpackConfig      = require('./webpack-config.js')(argv.production),
+    webpackConfig      = require('./webpack-config.js'),
     webpack            = require('webpack')(webpackConfig);
 
 /**
