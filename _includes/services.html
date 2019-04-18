@@ -3,7 +3,6 @@
 		<h1 class="section__title mrgb+ text-center">{{ t.services.title }}</h1>
 		<div class="media media--responsive mrgh0 md-mrgh">
 			<div class="media__right">
-				<!-- TODO: resize 400x400 -->
 				<img src="assets/images/illu-orga.jpg" class="img-block align-center" alt="Coton">
 			</div>
 			<div class="media__body">
@@ -38,7 +37,6 @@
 
 		<div class="media media--responsive mrgh0 md-mrgh">
 			<div class="media__right">
-				<!-- TODO: resize 400x400 -->
 				<img src="assets/images/illu-deco.jpg" class="img-block align-center">
 			</div>
 			<div class="media__body">
@@ -67,19 +65,18 @@
 	</div>
 </section>
 
-
 <script>
-function openService(evt, service) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-	tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(service).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+	function openService(evt, service) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(service).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
 </script>

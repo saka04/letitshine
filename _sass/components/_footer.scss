@@ -19,3 +19,25 @@
 		color:$alt-color;
 	}
 }
+
+@media screen and (max-width: 601px){
+	.desktop{
+		display:none;
+	}
+}
+
+.mobile{
+		display: none;
+}
+
+@media screen and (min-width: 360px){
+	.mobile{
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.mobile{
+		display: none;
+	}
+}

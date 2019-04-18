@@ -13,8 +13,7 @@ $rtl:                               false;
  * Colors
  */
 
-$brand-color:                       #ffd3dc;
-$second-brand-color:                #cccccc;
+$brand-color:                       #cccccc;
 $element-color:                     #b3d6d5;
 
 $alt-white:                         #fff;
@@ -24,14 +23,6 @@ $alt-color:                         #738497;
 $alt-color-dark:                    #46515e;
 $alt-color-darker:                  #303841;
 $alt-black:                         #000;
-
-$brand-color-dark:                  #dd8699;
-$brand-color-lighter:               #f4b0bf;
-$brand-color-light:                 #f4bcc7;
-
-$second-brand-color-light:          lighten($second-brand-color, 18%);
-
-
 
 /**
  * Typography
@@ -191,7 +182,7 @@ $list-separator-style:              1px solid rgba(0, 0, 0, .15);
  */
 
 $box-default-color:                 inherit;
-$box-default-bkg-color:             $second-brand-color-light;
+$box-default-bkg-color:             $alt-white;
 
 $box-primary-color:                 inherit;
 $box-primary-bkg-color:             $alt-white;

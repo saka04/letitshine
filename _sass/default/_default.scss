@@ -2,7 +2,7 @@
 	DEFAULT
 \*----------------------------------------*/
 
-.subserv{
+.subserv, .subserv2, .subserv3{
 	padding: $btn-small-padding;
 	margin-right: 1.3rem;
 	margin-bottom: 1.3rem;
@@ -16,59 +16,22 @@
 		border-bottom: double 2px $alt-black;
 	}
 
-	&:focus {
+	&:focus{
 		background-color: $alt-white;
+		border: none;
 		border-top: double 2px;
-		border-left: double 2px;
-		border-right: none;
-		border-bottom: none;
 	}
+
+}
+.subserv:focus {
+	border-left: double 2px;
 }
 
-.subserv2{
-	padding: $btn-small-padding;
-	margin-right: 1.3rem;
-	margin-bottom: 1.3rem;
-	color: $alt-black;
-	background-color: $alt-white;
-	border-bottom: double 2px $element-color;
-	transition-duration: 0.6s;
-
-	&:hover {
-		background-color: $alt-white;
-		border-bottom: double 2px $alt-black;
-	}
-
-	&:focus {
-		background-color: $alt-white;
-		border-top: double 2px;
-		border-left: none;
-		border-right: none;
-		border-bottom: none;
-	}
+.subserv2:focus {
 }
 
-.subserv3{
-	padding: $btn-small-padding;
-	margin-right: 1.3rem;
-	margin-bottom: 1.3rem;
-	color: $alt-black;
-	background-color: $alt-white;
-	border-bottom: double 2px $element-color;
-	transition-duration: 0.6s;
-
-	&:hover {
-		background-color: $alt-white;
-		border-bottom: double 2px $alt-black;
-	}
-
-	&:focus {
-		background-color: $alt-white;
-		border-top: double 2px;
-		border-left: none;
-		border-right: double 2px;
-		border-bottom: none;
-	}
+.subserv3:focus {
+	border-right: double 2px;
 }
 
 .tabcontent {

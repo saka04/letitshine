@@ -8,17 +8,11 @@
   }
 
 .section--brand {
-  background-color: $second-brand-color;
+  background-color: $brand-color;
 }
 
 .section--small {
   padding: $spacing-unit-small 0;
-}
-
-@media screen and (max-width: 1200px){
-  .section--small{
-    padding: $spacing-unit-small $spacing-unit-large;
-  }
 }
 
 .section--large {
@@ -42,5 +36,5 @@
 }
 
 .section--footer {
-   background-color: $second-brand-color;
+   background-color: $brand-color;
 }

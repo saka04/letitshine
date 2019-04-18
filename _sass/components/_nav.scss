@@ -4,16 +4,17 @@
 
 .nav {}
 .nav__link + .nav__link {
-  padding-left: $spacing-unit-small;
+  padding-left: $spacing-unit-large;
 }
 
 .nav__link {
 	font-size: 20px;
-	color: $alt-color-light;
+	font-weight: bold;
+	color: $alt-color;
 	text-decoration: none;
 
 	&:hover {
-		color: $alt-color;
+		color: $alt-color-light;
 	}
 }
 

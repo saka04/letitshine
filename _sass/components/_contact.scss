@@ -13,8 +13,10 @@ a.contact {
 }
 
 .partner{
-  max-width: 300px;
+  	max-width: 300px;
 	opacity: .5;
+	border: 2px solid $alt-color;
+	border-radius: 3px;
 
 	&:hover{
 		opacity: .8;
