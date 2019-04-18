@@ -1,19 +1,49 @@
 <header class="header">
 	<div class="container">
 		<div class="header__desktop">
-			<a href="/letitshine/" class="header__logo"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}"></a>
-			<ul class="nav list-inline">
-				<li><a href="#about" class="nav__link"> {{ t.nav.about }} </a></li>
-				<li><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
-				<li><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
-				<li><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
-			</ul>
+			<div class="nav">
+				<a href="/letitshine/" class="nav__logo">
+					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo">
+				</a>
+				<ul class="list-inline" class="nav__logo">
+					<li><a href="#about" class="nav__link"> {{ t.nav.about }} </a></li>
+					<li><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
+					<li><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
+					<li><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="header__mobile">
-			<a href="/letitshine/" class="header__logo"><img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}"></a>
-			<a href="#" class="header__burger"><i class="mdi mdi-menu"></i></a>
+			<div class="nav">
+				<a href="/letitshine/" class="nav__logo">
+					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo">
+				</a>
+				<a href="#" data-toggle="collapse" data-target="#collapse-container-nav" class="header__burger">
+					<i class="mdi mdi-menu"></i>
+				</a>
+			</div>
+		</div>
+
+		<div id="collapse-container-nav" class="collapse">
+			<div class="box box--primary">
+				<ul class="list-stacked list-stacked--divided">
+					<li><a href="#about" class="nav__link"> {{ t.nav.about }} </a></li>
+					<li><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
+					<li><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
+					<li><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </header>
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    var ContainerNavCollapse = document.querySelector('#collapse-container-nav');
+
+    if (ContainerNavCollapse) {
+      new Toolkit.Collapse(ContainerNavCollapse);
+    }
+  });
+</script>
