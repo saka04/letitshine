@@ -14,10 +14,11 @@
 
 .bannertext{
 	position: absolute;
-	width: 100%;
-	bottom: 25%;
+	bottom: 20%;
+	left: 10%;
+	right: 10%;
 	font-size: 1.5em;
 	text-align: center;
 	color: $alt-white;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.65);
 }
