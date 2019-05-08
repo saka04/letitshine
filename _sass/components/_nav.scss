@@ -11,16 +11,17 @@
   }
 
   .nav__item + .nav__item {
-    padding-left: $spacing-unit-large;
+    padding-left: $spacing-unit-small;
   }
 
   .nav__link {
-  	font-size: rem(20px);
-  	color: $alt-color-dark;
+    font-size: rem(20px);
+  	color: $alt-color;
+    font-weight: bold;
   	text-decoration: none;
 
   	&:hover {
-  		color: $alt-color-darker;
+  		color: $alt-color-light;
   	}
   }
 

@@ -1,0 +1,37 @@
+/*----------------------------------------*\
+  SOCIAL
+\*----------------------------------------*/
+
+.social{
+	font-size: 1.5em;
+}
+
+	.social__header{
+		display: none;
+	  padding: $spacing-unit-small 0 $spacing-unit-small $spacing-unit-large;
+
+    @include media ('lg'){
+      display: inline-block;
+    }
+	}
+
+	  .social__header__link:hover{
+	    color: $alt-color;
+	  }
+	  
+  .social__footer{
+		display: inline-block;
+
+  	@include media('lg'){
+  		display: none;
+  	}
+  }
+
+  	.social__footer__link{
+  		color: $alt-white;
+  		padding-left: 1.5em;
+
+  		&:hover{
+  			color: $alt-color;
+  		}
+  	}
