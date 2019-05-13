@@ -10,10 +10,10 @@ $baseUrl: "{{ site.baseurl }}";
 @import "main";
 
 // Hamburger & settings
-// $hamburger-layer-color: $white;
-// $hamburger-padding-y: 32px;
-// $hamburger-hover-opacity: 1;
-// @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+$hamburger-layer-color: $alt-white;
+$hamburger-padding-y: 32px;
+$hamburger-hover-opacity: 1;
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 
 // Fonts
 // @import 'https://fonts.googleapis.com/css?family=Lato|Montserrat|Ubuntu';

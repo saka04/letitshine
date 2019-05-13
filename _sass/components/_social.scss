@@ -22,6 +22,7 @@
 	  
   .social__footer{
 		display: inline-block;
+    line-height: 1em;
 
   	@include media('lg'){
   		display: none;
@@ -30,9 +31,13 @@
 
   	.social__footer__link{
   		color: $alt-white;
-  		padding-left: 1.5em;
+  		padding-left: $spacing-unit-small;
 
   		&:hover{
   			color: $alt-color;
   		}
+      
+      @media screen and (min-width: 500px){
+        padding-left: $spacing-unit-large;
+      }
   	}

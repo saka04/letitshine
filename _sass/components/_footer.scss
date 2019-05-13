@@ -10,3 +10,11 @@
 	.footer__link {
 		color: $alt-white;
 	}
+
+.copyright{
+	margin: 0;
+
+	@media screen and (max-width: 350px){
+		display: none;
+	}
+}

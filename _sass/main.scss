@@ -57,6 +57,7 @@
 @import '../node_modules/kanbasu/src/scss/helpers/display';
 @import '../node_modules/kanbasu/src/scss/helpers/align';
 @import '../node_modules/kanbasu/src/scss/helpers/align-responsive';
+@import '../node_modules/kanbasu/src/scss/helpers/flex';
 
 @import 'helpers/text';
 @import 'helpers/testimony';
@@ -90,5 +91,5 @@
 @import 'components/banner';
 @import 'components/media';
 @import 'components/swiper';
-@import 'components/subserv';
+@import 'components/services';
 @import 'components/social';

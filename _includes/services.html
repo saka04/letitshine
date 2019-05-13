@@ -13,9 +13,13 @@
 		</div>
 
 		<div class="mrgh0 md-mrgh">
-			<button class="subserv btn text-bold tablinks" onclick="openService(event, 'Crush')">{{ t.services.service-1.subservice-1.title }}</button>
-			<button class="subserv2 btn text-bold tablinks" onclick="openService(event, 'Together')">{{ t.services.service-1.subservice-2.title }}</button>
-			<button class="subserv3 btn text-bold tablinks" onclick="openService(event, 'Advice')">{{ t.services.service-1.subservice-3.title }}</button>
+
+			<ul class="list services__list mrgt+">
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Crush');return false;" href="#">{{ t.services.service-1.subservice-1.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Together');return false;" href="#">{{ t.services.service-1.subservice-2.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Advice');return false;" href="#">{{ t.services.service-1.subservice-3.title }}</a></li>
+			</ul>
+			
 			<div id="Crush" class="tabcontent">
 				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
 				<h3>{{ t.services.service-1.subservice-1.title }}</h3>
@@ -47,8 +51,11 @@
 		</div>
 
 		<div class="mrgh0 md-mrgh">
-			<button class="subserv btn text-bold tablinks" onclick="openService(event, 'Design')">Décoration d'intérieur</button>
-			<button class="subserv3 btn text-bold tablinks" onclick="openService(event, 'Advice2')">Conseil</button>
+			
+			<ul class="list services__list mrgt+">
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Design');return false;" href="#">{{ t.services.service-2.subservice-1.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Advice2');return false;" href="#">{{ t.services.service-2.subservice-2.title }}</a></li>
+			</ul>
 
 			<div id="Design" class="tabcontent">
 				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
@@ -67,16 +74,38 @@
 
 <script>
 	function openService(evt, service) {
-	  var i, tabcontent, tablinks;
-	  tabcontent = document.getElementsByClassName("tabcontent");
-	  for (i = 0; i < tabcontent.length; i++) {
+		var i, tabcontent, tablinks;
+
+		// hides everything
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
 		tabcontent[i].style.display = "none";
-	  }
-	  tablinks = document.getElementsByClassName("tablinks");
-	  for (i = 0; i < tablinks.length; i++) {
+		}
+
+		// removes active from all
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	  }
-	  document.getElementById(service).style.display = "block";
-	  evt.currentTarget.className += " active";
+		}
+
+		// breakup class names into parts
+		document.getElementById(service).style.display = "block";
+		var tab = evt.currentTarget.className;
+		tab = tab.split(" ");
+
+		// find the active class, hide it and give it the original class name
+		if (tab[2] == "active"){
+		document.getElementById(service).style.display = "none";
+		evt.currentTarget.className = tab[0] + " " + tab[1];
+
+		// activate the selected button
+		} else if (tab[2] != "active"){
+		// removes active from classes
+		servicelinks = document.getElementsByClassName("services");
+		for (i = 0; i < servicelinks.length; i++) {
+		servicelinks[i].className = "services text-bold";
+		}
+		evt.currentTarget.className += " active";
+		}
 	}
 </script>

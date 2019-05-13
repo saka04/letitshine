@@ -310,8 +310,13 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: $brand-color;
+  border: solid .5px $alt-color;
+  background: $alt-white;
   opacity: 1;
+
+    &:hover{
+      background: $alt-color;
+    }
 }
 button.swiper-pagination-bullet {
   border: none;
@@ -328,7 +333,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: $brand-color;
+  background: $alt-color;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
