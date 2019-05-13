@@ -4,11 +4,12 @@
 
 .social{
 	font-size: 1.5em;
+	line-height: 2.5em;
 }
 
 	.social__header{
 		display: none;
-	  padding: $spacing-unit-small 0 $spacing-unit-small $spacing-unit-large;
+    margin-left: $spacing-unit-large;
 
     @include media ('lg'){
       display: inline-block;

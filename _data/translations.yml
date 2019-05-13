@@ -14,9 +14,9 @@ fr:
     content-3: Cuisine, chambre à coucher, salon, salle de bain... Tous les espaces peuvent être repensés pour une répartition pratique dans la vie quotidienne tout en incluant un aspect "design".
     content-4: Let it Shine! vous offre ainsi un nouveau "chez-vous" à l'atmosphère apaisante.
   services:
-    title: Services
+    title: Home Organizing
     service-1:
-      title: Organisation
+      title: Organiser, pour vivre sereinement
       description-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus.
       description-2: 
       subservice-1:
@@ -29,7 +29,7 @@ fr:
         title: Conseil
         description: Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique turpis magna, non pretium neque vulputate eu. Duis auctor, lectus vel scelerisque maximus, nisi odio mattis purus, eu luctus turpis felis non tortor. Proin porta risus id porta luctus. Maecenas gravida mi consequat massa eleifend fermentum. Fusce eu tortor eleifend purus viverra eleifend. Sed a turpis non elit vulputate imperdiet. Ut urna augue, porttitor in maximus et, vehicula eu metus. 
     service-2:
-      title: Décoration
+      title: Décorer, pour se sentir chez soi
       description-1: Mauris vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
       description-2: 
       subservice-1:
@@ -40,15 +40,21 @@ fr:
         description: Mauris2 vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
   work:
     title: Réalisations
-  quotes:
-    title: Ils en parlent le mieux
-    quote-1: "Masha est une décoratrice hors pair! Nous avons travaillé ensemble ces dernières années. Sa personnalité est éclatante, et ses compétences en décoration et personnalisation d’espaces intérieurs sont remarquables. Autonome, créative et passionnée, elle vous invite à participer de manière constructive. Je ne peux que vivement la recommander à toute personne ayant besoin de ses services en décoration d’intérieur : grâce à elle mon appartement et même ma vie quotidienne se retrouvent mieux organisées, et c’est un réel plaisir de rentrer chez soi !"
-    quote-2:
-    quote-3:
+    quotes:
+      title: Témoignages
+      testifier-name-1: Meta De Boer
+      testifier-function-1: Leadership Consultant, 2 enfants
+      quote-1: "Masha est une décoratrice hors pair! Nous avons travaillé ensemble ces dernières années. Sa personnalité est éclatante, et ses compétences en décoration et personnalisation d’espaces intérieurs sont remarquables. Autonome, créative et passionnée, elle vous invite à participer de manière constructive. Je ne peux que vivement la recommander à toute personne ayant besoin de ses services en décoration d’intérieur : grâce à elle mon appartement et même ma vie quotidienne se retrouvent mieux organisées, et c’est un réel plaisir de rentrer chez soi !"
+      testifier-name-2:
+      testifier-function-2:
+      quote-2:
+      testifier-name-3:
+      testifier-function-3:
+      quote-3:
   contact:
     title: Contact & Partenaires
     company: Let it shine!
-    name: Masha Wojcik
+    name: Masha Wójcik
     function: Founder
     email: masha@letitshine.ch
     phone: +41 (0) 79 275 90 63
