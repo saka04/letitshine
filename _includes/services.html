@@ -97,13 +97,16 @@
 		if (tab[2] == "active"){
 		document.getElementById(service).style.display = "none";
 		evt.currentTarget.className = tab[0] + " " + tab[1];
+		console.log(evt);
+		evt.currentTarget.blur();
 
 		// activate the selected button
 		} else if (tab[2] != "active"){
-		// removes active from classes
+		// removes active from class
 		servicelinks = document.getElementsByClassName("services");
 		for (i = 0; i < servicelinks.length; i++) {
 		servicelinks[i].className = "services text-bold";
+		//servicelinks[i].blur();
 		}
 		evt.currentTarget.className += " active";
 		}
