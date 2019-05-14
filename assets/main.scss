@@ -10,8 +10,9 @@ $baseUrl: "{{ site.baseurl }}";
 @import "main";
 
 // Hamburger & settings
-$hamburger-layer-color: $alt-white;
-$hamburger-padding-y: 32px;
+$hamburger-layer-color: $alt-color;
+$hamburger-padding-x: 0;
+$hamburger-padding-y: 15px 10px;
 $hamburger-hover-opacity: 1;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 

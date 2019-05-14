@@ -1,9 +1,11 @@
 <section id="about" class="section section--huge">
 	<div class="container">
 		<h1 class="section__title mrgb+">{{ t.about.title }}</h1>
-		<div class="media media--responsive">
+		<div class="media media--responsive md-mrgh">
 			<div class="media__left">
-				<img src="assets/images/illu-about.png" alt="text alt" title="plante verte" class="media__img">
+				{% for about in site.data.about %}
+		        	<img src="{{ about.image | prepend:site.baseurl }}" title="{{ title }}" class="media__img">
+				{% endfor %}
 			</div>
 			<div class="media__body">
 				<p>{{ t.about.content-1 }}</p>

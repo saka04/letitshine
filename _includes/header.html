@@ -3,13 +3,13 @@
 		<div class="header__desktop">
 			<div class="nav">
 				<a href="/letitshine/" class="nav__logo">
-					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo">
+					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine">
 				</a>
 				<ul class="list-inline" class="nav__logo">
-					<li class="nav__item"><a href="#about" class="nav__link"> {{ t.nav.about }} </a></li>
-					<li class="nav__item"><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
-					<li class="nav__item"><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
-					<li class="nav__item"><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
+					<li class="nav__item"><a href="#about" class="nav__link" title=""> {{ t.nav.about }} </a></li>
+					<li class="nav__item"><a href="#services" class="nav__link" title=""> {{ t.nav.services }} </a></li>
+					<li class="nav__item"><a href="#work" class="nav__link" title=""> {{ t.nav.work }} </a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link" title=""> {{ t.nav.contact }} </a></li>
 				</ul>
 				<div class="social social__header pull-right">
 					<a href="https://www.facebook.com/mashaletitshine-278190159779666/" target="_blank"><i class="pdgr mdi mdi-facebook social__header__link"></i></a>
@@ -23,9 +23,14 @@
 				<a href="/letitshine/" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo">
 				</a>
-				<a href="#" data-toggle="collapse" data-target="#collapse-container-nav" class="header__burger">
-					<i class="mdi mdi-menu"></i>
-				</a>
+				
+				<button class="hamburger hamburger--spring" type="button" data-toggle="collapse" data-target="#collapse-container-nav" class="header__burger">
+					<span class="hamburger-box">
+						<span class="hamburger-inner">
+						</span>
+					</span>
+				</button>
+			</div>
 		</div>
 
 		<div id="collapse-container-nav" class="collapse">
@@ -35,9 +40,12 @@
 					<li><a href="#services" class="nav__link"> {{ t.nav.services }} </a></li>
 					<li><a href="#work" class="nav__link"> {{ t.nav.work }} </a></li>
 					<li><a href="#contact" class="nav__link"> {{ t.nav.contact }} </a></li>
+					<li>
+						<a href="https://www.facebook.com/mashaletitshine-278190159779666/" target="_blank"><i class="pdgr mdi mdi-facebook social social__header__link"></i></a>
+						<a href="https://www.instagram.com/mashaletitshine/" target="_blank"><i class="mdi mdi-instagram social social__header__link"></i></a>
+					</li>
 				</ul>
-				</div>	
-			</div>
+			</div>	
 		</div>
 	</div>
 </header>
@@ -51,3 +59,15 @@
     }
   });
 </script>
+
+<script>
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+  });
+</script>
+
