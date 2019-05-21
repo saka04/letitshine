@@ -1,15 +1,15 @@
 <header class="header">
 	<div class="container">
-		<div class="header__desktop">
+		<div data-scroll-header class="header__desktop">
 			<div class="nav">
 				<a href="/letitshine/" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine">
 				</a>
 				<ul class="list-inline" class="nav__logo">
-					<li class="nav__item"><a href="#about" class="nav__link" title=""> {{ t.nav.about }} </a></li>
-					<li class="nav__item"><a href="#services" class="nav__link" title=""> {{ t.nav.services }} </a></li>
-					<li class="nav__item"><a href="#work" class="nav__link" title=""> {{ t.nav.work }} </a></li>
-					<li class="nav__item"><a href="#contact" class="nav__link" title=""> {{ t.nav.contact }} </a></li>
+					<li class="nav__item"><a data-scroll href="#about" class="nav__link" title=""> {{ t.nav.about }} </a></li>
+					<li class="nav__item"><a data-scroll href="#services" class="nav__link" title=""> {{ t.nav.services }} </a></li>
+					<li class="nav__item"><a data-scroll href="#work" class="nav__link" title=""> {{ t.nav.work }} </a></li>
+					<li class="nav__item"><a data-scroll href="#contact" class="nav__link" title=""> {{ t.nav.contact }} </a></li>
 				</ul>
 				<div class="social social__header pull-right">
 					<a href="https://www.facebook.com/mashaletitshine-278190159779666/" target="_blank"><i class="pdgr mdi mdi-facebook social__header__link"></i></a>
