@@ -1,6 +1,8 @@
 // Components
 import Collapse from './components/Collapse';
 import Slider from './components/Slider.js';
+//import Services from './components/Services.js';
+import SmoothScroll from './components/SmoothScroll.js'
 
 document.addEventListener('DOMContentLoaded', function() {
   if (document.querySelector('body').classList.contains('home')) {
@@ -12,4 +14,3 @@ document.addEventListener('DOMContentLoaded', function() {
 export {
   Collapse,
 };
-

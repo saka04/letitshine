@@ -1,18 +1,22 @@
 <section id="contact" class="section section--huge">
 	<div class="container">
-		<h1 class="section__title mrgb++">{{ t.contact.title }}</h1>
+		<h1 class="section__title mrgb">{{ t.contact.title }}</h1>
 		<div class="grid grid--multiline">
 			<div class="sm-w-1/2 grid__item">
+				<h2 class="text-center mrgb+">Contact</h2>
 				<address class="text-center">
 					<span class="text-bold">{{ t.contact.company }}</span><br>
 					{{ t.contact.name }}<br>
 					{{ t.contact.function }}<br>
 					<a href="mailto:masha@letitshine.ch" class="contact">{{ t.contact.email }}</a><br>
-					{{ t.contact.phone }}
+					<a href="tel:{{ t.contact.phone }}">{{ t.contact.phone }}</a><br>
+					{{ t.contact.address-1 }}<br>
+					{{ t.contact.address-2 }}<br>
 				</address>
 				<p class="text-center">{{ t.contact.catch }}</p>
 			</div>
 			<div class="sm-w-1/2 grid__item xs-mrgt">
+				<h2 class="text-center mrgb+">Partenaires</h2>
 				<a href="http://www.osirisfleurs.ch/" target="_blank">
 					<img class="img-block align-center partner" src="assets/images/osiris-capture.PNG">
 				</a>

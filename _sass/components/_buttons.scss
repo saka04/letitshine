@@ -1,0 +1,14 @@
+/*----------------------------------------*\
+  BUTTONS
+\*----------------------------------------*/
+
+.btn--service{
+	color: $alt-black;
+	border: 2px double $alt-color;
+	background-color: $alt-white;
+
+	&:hover{
+		font-weight: bold;
+		border: 2px double $element-color;
+	}
+}

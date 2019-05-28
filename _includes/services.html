@@ -1,6 +1,9 @@
 <section id="services" class="section section--huge">
 	<div class="container">
 		<h1 class="section__title mrgb+">{{ t.services.title }}</h1>
+		
+		<!-- SERVICE 1 -->
+
 		<div class="media media--responsive mrgh0 md-mrgh mrgt++">
 			<div class="media__right">
 				<img src="assets/images/illu-orga.png" class="media__img">
@@ -9,35 +12,45 @@
 				<h2 class="mrgt--" >{{ t.services.service-1.title }}</h2>
 				<p>{{ t.services.service-1.description-1 }}</p>
 				<p>{{ t.services.service-1.description-2 }}</p>
+				<p>{{ t.services.service-1.description-3 }}</p>
 			</div>
 		</div>
+
 
 		<div class="mrgh0 md-mrgh">
 
+		<!-- SERVICE 1 : SUB SERVICES MENU -->
+
 			<ul class="list services__list mrgt+">
-				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Crush');return false;" href="#">{{ t.services.service-1.subservice-1.title }}</a></li>
-				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Together');return false;" href="#">{{ t.services.service-1.subservice-2.title }}</a></li>
-				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Advice');return false;" href="#">{{ t.services.service-1.subservice-3.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Refresh');return false;" href="#">{{ t.services.service-1.subservice-1.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Coaching');return false;" href="#">{{ t.services.service-1.subservice-2.title }}</a></li>
 			</ul>
-			
-			<div id="Crush" class="tabcontent">
-				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-				<h3>{{ t.services.service-1.subservice-1.title }}</h3>
-				<p>{{ t.services.service-1.subservice-1.description }}</p>
+		
+		<!-- SERVICE 1 : SUB SERVICES CONTENT -->
+
+			<div id="Refresh" class="tabcontent">
+				<p class="mrgt0">{{ t.services.service-1.subservice-1.description-1 }}</p>
+				<p>{{ t.services.service-1.subservice-1.description-2 }}</p>
+				<p>{{ t.services.service-1.subservice-1.description-3 }}</p>
+				<ul>
+					<li><p><span class="text-bold">{{ t.services.service-1.subservice-1.description-4 }}</span>&nbsp{{ t.services.service-1.subservice-1.description-5 }}</p></li>
+					<li><p><span class="text-bold">{{ t.services.service-1.subservice-1.description-6 }}</span>&nbsp{{ t.services.service-1.subservice-1.description-7 }}</p></li>
+					<li><p><span class="text-bold">{{ t.services.service-1.subservice-1.description-8 }}</span>&nbsp{{ t.services.service-1.subservice-1.description-9 }}</p></li>
+				</ul>
+				<p class="text-italic">Tarif : {{ t.services.service-1.subservice-1.rate }}</p>
+				<a href="mailto:masha@letitshine.ch?subject=Rendez-vous pour un Home Refresh" class="btn btn--service mrgt">{{ t.services.service-1.subservice-1.cta }}</a>
 			</div>
 
-			<div id="Together" class="tabcontent">
-				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-				<h3>{{ t.services.service-1.subservice-2.title }}</h3>
-				<p>{{ t.services.service-1.subservice-2.description }}</p>
+			<div id="Coaching" class="tabcontent">
+				<p class="mrgt0">{{ t.services.service-1.subservice-2.description-1 }}</p>				
+				<p>{{ t.services.service-1.subservice-2.description-2 }}</p>
+				<p class="text-italic">Tarif : {{ t.services.service-1.subservice-2.rate }}</p>
+				<a href="mailto:masha@letitshine.ch?subject=Demande de coaching en organisation" class="btn btn--service mrgt">{{ t.services.service-1.subservice-2.cta }}</a>
 			</div>
 
-			<div id="Advice" class="tabcontent">
-				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-				<h3>{{ t.services.service-1.subservice-3.title }}</h3>
-				<p>{{ t.services.service-1.subservice-3.description }}</p>
-			</div>
 		</div>
+
+		<!-- SERVICE 2 -->
 
 		<div class="media media--responsive mrgh0 md-mrgh mrgt++">
 			<div class="media__right">
@@ -50,65 +63,81 @@
 			</div>
 		</div>
 
+
 		<div class="mrgh0 md-mrgh">
+		
+		<!-- SERVICE 2 : SUB SERVICES MENU -->
 			
 			<ul class="list services__list mrgt+">
 				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Design');return false;" href="#">{{ t.services.service-2.subservice-1.title }}</a></li>
-				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Advice2');return false;" href="#">{{ t.services.service-2.subservice-2.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" onclick="openService(event, 'Advice');return false;" href="#">{{ t.services.service-2.subservice-2.title }}</a></li>
 			</ul>
 
+		<!-- SERVICE 2 : SUB SERVICES CONTENT -->
+
 			<div id="Design" class="tabcontent">
-				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-				<h3>{{ t.services.service-2.subservice-1.title }}</h3>
-				<p>{{ t.services.service-2.subservice-1.description }}</p>
+				<p class="mrgt0">{{ t.services.service-2.subservice-1.description-1 }}</p>
+				<p>{{ t.services.service-2.subservice-1.description-2 }}</p>
+				<p>{{ t.services.service-2.subservice-1.description-3 }}</p>
+				<ul>
+					<li><p><span class="text-bold">{{ t.services.service-2.subservice-1.description-4 }}</span>&nbsp{{ t.services.service-2.subservice-1.description-5 }}</p></li>
+					<li><p><span class="text-bold">{{ t.services.service-2.subservice-1.description-6 }}</span>&nbsp{{ t.services.service-2.subservice-1.description-7 }}</p></li>
+					<li><p class="text-bold">{{ t.services.service-2.subservice-1.description-8 }}</p></li>
+					<li><p><span class="text-bold">{{ t.services.service-2.subservice-1.description-9 }}</span>&nbsp{{ t.services.service-2.subservice-1.description-10 }}</p></li>
+				</ul>
+				<p class="text-italic">Tarif : {{ t.services.service-2.subservice-1.rate }}</p>
+				<a href="mailto:masha@letitshine.ch?subject=Rendez-vous pour un Home Design" class="btn btn--service mrgt">{{ t.services.service-2.subservice-1.cta }}</a>
 			</div>
 
-			<div id="Advice2" class="tabcontent">
-				<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-				<h3>{{ t.services.service-2.subservice-2.title }}</h3>
-				<p>{{ t.services.service-2.subservice-2.description }}</p>
+			<div id="Advice" class="tabcontent">
+				<p class="mrgt0">{{ t.services.service-2.subservice-2.description-1 }}</p>				
+				<p>{{ t.services.service-2.subservice-2.description-2 }}</p>
+				<p class="text-italic">Tarif : {{ t.services.service-2.subservice-2.rate }}</p>
+				<a href="mailto:masha@letitshine.ch?subject=Demande de conseils en décoration" class="btn btn--service mrgt">{{ t.services.service-2.subservice-2.cta }}</a>
 			</div>
+
 		</div>
 	</div>
+	<script>
+		function openService(evt, service) {
+			var i, tabcontent, tablinks;
+
+			tabcontent = document.getElementsByClassName("tabcontent");
+
+			// hides everything
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+			tablinks = document.getElementsByClassName("tablinks");
+			
+			// removes active from all
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+
+			// breakup class names into parts
+			document.getElementById(service).style.display = "block";
+			var tab = evt.currentTarget.className;
+			tab = tab.split(" ");
+
+			// find the active class, hide it and give it the original class name
+			if (tab[2] == "active"){
+				document.getElementById(service).style.display = "none";
+				evt.currentTarget.className = tab[0] + " " + tab[1];
+				evt.currentTarget.blur();
+
+			// activate the selected button
+				} else if (tab[2] != "active"){
+
+			// removes active from class
+				servicelinks = document.getElementsByClassName("services");
+				for (i = 0; i < servicelinks.length; i++) {
+					servicelinks[i].className = "services text-bold";
+					//servicelinks[i].blur();
+				}
+			evt.currentTarget.className += " active";
+			}
+		}
+	</script>
 </section>
-
-<script>
-	function openService(evt, service) {
-		var i, tabcontent, tablinks;
-
-		// hides everything
-		tabcontent = document.getElementsByClassName("tabcontent");
-		for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = "none";
-		}
-
-		// removes active from all
-		tablinks = document.getElementsByClassName("tablinks");
-		for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-		}
-
-		// breakup class names into parts
-		document.getElementById(service).style.display = "block";
-		var tab = evt.currentTarget.className;
-		tab = tab.split(" ");
-
-		// find the active class, hide it and give it the original class name
-		if (tab[2] == "active"){
-		document.getElementById(service).style.display = "none";
-		evt.currentTarget.className = tab[0] + " " + tab[1];
-		console.log(evt);
-		evt.currentTarget.blur();
-
-		// activate the selected button
-		} else if (tab[2] != "active"){
-		// removes active from class
-		servicelinks = document.getElementsByClassName("services");
-		for (i = 0; i < servicelinks.length; i++) {
-		servicelinks[i].className = "services text-bold";
-		//servicelinks[i].blur();
-		}
-		evt.currentTarget.className += " active";
-		}
-	}
-</script>
