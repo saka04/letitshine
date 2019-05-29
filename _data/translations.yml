@@ -24,7 +24,7 @@ fr:
         Let it shine! propose 2 services d'organisation d'espace : un “Home Refresh” pour un service global, ou un “Coaching” personnalisé.
       subservice-1:
         title: Home Refresh
-        description-1: Le service de Home Refresh vise à réorganiser les espaces nécessitant un désencombrement majeur.
+        description-1: Le service de "Home Refresh" vise à réorganiser les espaces nécessitant un désencombrement majeur.
         description-2: >
           Let it shine! vous apporte une nouvelle perspective afin de trier et organiser votre intérieur, en accord avec vos souhaits : meubles, éléments de décoration, vêtements, bibelots, tout y passe ! Idéal pour celles et ceux qui tiennent à redécouvrir leur chambre, leur salon ou leur cuisine et bénéficier d’un nouveau confort de vie au quotidien.
         description-3: >
@@ -32,9 +32,9 @@ fr:
         description-4: le tri des affaires
         description-5: destiné au don ou au débarras
         description-6: le placement logique des éléments
-        description-7: propres aux espaces, pour vous faciliter l’utilisation au quotidien
+        description-7: propres aux espaces, pour faciliter l’utilisation au quotidien
         description-8: une liste de conseils personnalisés
-        description-9: pour garder de bonnes habitudes quotidiennes
+        description-9: pour garder de bonnes habitudes
         rate: CHF 100.- / h (minimum 3h) ; CHF 90.- à partir de la 4e heure.
         cta: Je demande mon devis gratuit !
       subservice-2: 
@@ -45,13 +45,13 @@ fr:
         cta: Je souhaite un coaching !
     service-2:
       title: Décorer, pour se sentir chez soi
-      description-1: Mauris vel maximus purus. Maecenas iaculis arcu sit amet faucibus porta. Maecenas eu mauris ac arcu gravida venenatis. Sed in sapien orci. Integer in mi at leo ullamcorper mattis. Nullam euismod ex a mauris luctus vestibulum. Nam congue, odio sit amet posuere consequat, tellus justo dictum dui, nec pharetra felis felis sed nisi. Etiam sem risus, tempus ac leo ac, rhoncus vehicula augue. Integer id pharetra orci. Curabitur tincidunt nisi et dui ultrices vestibulum. Donec finibus felis eu nulla porttitor.
+      description-1: Parce que décorer son intérieur lors d’un emménagement ou de petits travaux n’est pas toujours évident, Let it shine! se met à votre disposition en apportant un savoir-faire unique et une grande créativité. Vous bénéficiez d’un service de qualité en combinant des solutions design à des prix modérés.
       description-2: >
-        Let it shine! propose 2 services de décoration : un “Home Design” pour remodeler son intérieur, ou des sessions de conseils personnalisés.
+        Let it shine! propose ainsi 2 services de décoration : un “Home Design” pour remodeler son intérieur, ou des sessions de conseils personnalisés.
       subservice-1:
         title: Home Design
-        description-1: Avec le service de décoration d’intérieur Let it shine! se met à votre disposition pour repenser votre habitat et prendre en main les travaux de nature diverse.
-        description-2: Après la prise de connaissance de vos besoins et de vos désirs, nous travaillons main dans la main de A à Z sur votre projet, soit de la conception à la réalisation. Après transformation de l’espace, votre intérieur sera unique et vous ne voudrez plus le quitter !
+        description-1: Le service de “Home Design” vise à effectuer une refonte esthétique et pratique de votre intérieur.
+        description-2: Après la prise de connaissance de vos besoins, nous travaillons main dans la main de la conception à la réalisation. Suite à la transformation de l’espace, votre intérieur sera unique et vous ne voudrez plus le quitter !
         description-3: >
           Le service inclut :
         description-4: l’analyse de vos besoins,
