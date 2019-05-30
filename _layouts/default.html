@@ -29,5 +29,17 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="{{ '/assets/javascripts/common.js' | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">   
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.documentElement.scrollTop > 50) {
+        document.getElementByClassName("header__desktop").classList.replace('header__onscroll');
+      } else {
+        document.querySelector("header__desktop").classList.add("header__desktop")
+      }
+    }
+    </script>
   </body>
 </html>
