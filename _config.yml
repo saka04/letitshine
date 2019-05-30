@@ -2,7 +2,7 @@
 title: Let is Shine!
 # the subpath baseurl must be to be publish & working in production under letitshine.ch
 # if you want to preview the website under username.github.io/letitshine, you have to change baseurl to /letitshine
-baseurl: "/letitshine"
+baseurl: ""
 url: "" # the base hostname & protocol for your site
 email: ""
 
