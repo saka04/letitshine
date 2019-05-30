@@ -9,7 +9,7 @@ export default class Slider {
     new Swiper (item, {
       direction: 'horizontal',
       loop: true,
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 30,
 
       pagination: {
@@ -20,12 +20,7 @@ export default class Slider {
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
-
-      keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-      },
+      }
     })
   }
 }

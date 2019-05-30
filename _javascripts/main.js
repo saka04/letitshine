@@ -1,9 +1,8 @@
 // Components
 import Collapse from './components/Collapse';
 import Slider from './components/Slider.js';
-//import Services from './components/Services.js';
 import SmoothScroll from './components/SmoothScroll.js'
-import HeaderScroll from './components/HeaderScroll.js'
+import Nav from './components/Nav';
 
 document.addEventListener('DOMContentLoaded', function() {
   if (document.querySelector('body').classList.contains('home')) {
@@ -14,4 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // Export as Toolkit library
 export {
   Collapse,
+  Nav,
 };

@@ -2,27 +2,19 @@
 	<div class="container">
 		<h1 class="section__title mrb+">{{ t.work.title }}</h1>
 
-		<!-- Slider main container -->
 		<div class="swiper-container swiper-container-horizontal mrgv++">
-	    <!-- Additional required wrapper -->
 		    <div class="swiper-wrapper">
-		        <!-- Slides -->
-				{% for work in site.data.work %}
-		        	<img src="{{ work.image | prepend:site.baseurl }}" title="{{ title }}" class="swiper-slide">
-				{% endfor %}
+					{% for work in site.data.work %}
+			      <img src="{{ work.image | prepend:site.baseurl }}" title="{{ title }}" class="swiper-slide">
+					{% endfor %}
 		    </div>
-		    <!-- If we need pagination -->
 		    <div class="swiper-pagination"></div>
 
-		    <!-- If we need navigation buttons -->
 		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
 		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
-
-		    <!-- If we need scrollbar -->
-		    <div class="swiper-scrollbar"></div>
 			</div>
 		</div>
-		
+
 		<h2 class="text-center">{{ t.work.quotes.title }}</h2>
 		<div class="testimony box box--default pdgv+">
 			<div class="container md-pdgh++">
