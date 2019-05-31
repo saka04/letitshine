@@ -1,10 +1,11 @@
 # Site settings
-title: Let is Shine!
+title: Let it shine!
 # the subpath baseurl must be to be publish & working in production under letitshine.ch
 # if you want to preview the website under username.github.io/letitshine, you have to change baseurl to /letitshine
 baseurl: ""
 url: "" # the base hostname & protocol for your site
-email: ""
+email: "masha@letitshine.ch"
+description: Société indépendante spécialisée dans l'organisation d'espace, l'architecture d'intérieur et la décoration.
 
 # Build settings
 markdown: kramdown
