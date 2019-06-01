@@ -14,11 +14,15 @@
 
 .bannertext{
 	position: absolute;
-	bottom: 20%;
+	bottom: 5%;
 	left: 15%;
 	right: 15%;
 	font-size: 1.4em;
 	text-align: center;
 	color: $alt-white;
 	background: rgba(0, 0, 0, 0.6);
+
+	@include media ('md'){
+		bottom: 20%;
+	}
 }
