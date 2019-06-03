@@ -10,9 +10,10 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: none;
+	position: relative;
 
 	@include media ('lg'){
-	max-width: 100%;
+	max-width: 1400px;
 	max-height: 800px;		
 	margin: 0 auto;
 	}
@@ -29,13 +30,12 @@
 	background: rgba(0, 0, 0, 0.6);
 
 	@include media ('md'){
-		bottom: 20%;
+		bottom: 15%;
 	}
 
 	@include media ('lg'){
-		top: 40%;
+		bottom: 30%;
 		left: 20%;
 		right: 20%;
-		bottom: unset;
 	}
 }
