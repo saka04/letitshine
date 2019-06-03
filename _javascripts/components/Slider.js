@@ -11,6 +11,11 @@ export default class Slider {
       loop: true,
       slidesPerView: 2,
       spaceBetween: 30,
+      breakpoints: {
+        450: {
+          slidesPerView: 1, //below 350, non mobile first.
+        }
+      },
 
       pagination: {
         el: '.swiper-pagination',
