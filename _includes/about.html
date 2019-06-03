@@ -4,7 +4,7 @@
 		<div class="media media--responsive md-mrgh">
 			<div class="media__left">
 				{% for about in site.data.about %}
-		        	<img src="{{ about.image | prepend:site.baseurl }}" title="{{ title }}" class="media__img">
+		        	<img src="{{ about.image | prepend:site.baseurl }}" alt="{{ about.alt }}" class="media__img">
 				{% endfor %}
 			</div>
 			<div class="media__body">
