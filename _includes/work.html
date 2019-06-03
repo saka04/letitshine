@@ -5,7 +5,7 @@
 		<div class="swiper-container swiper-container-horizontal mrgv++">
 		    <div class="swiper-wrapper">
 					{% for work in site.data.work %}
-			      <img src="{{ work.image | prepend:site.baseurl }}" title="{{ title }}" class="swiper-slide">
+			      <img src="{{ work.image | prepend:site.baseurl }}" alt="{{ work.alt }}" class="swiper-slide">
 					{% endfor %}
 		    </div>
 		    <div class="swiper-pagination"></div>
@@ -21,9 +21,9 @@
 				<div class="media media--responsive">
 					<div class="media__left text-center">
 						{% for testifiers in site.data.testifiers %}
-						<img src="{{ testifiers.image | prepend:site.baseurl }}" class="media__img testimony__img">
+						<img src="{{ testifiers.image | prepend:site.baseurl }}" alt="{{ testifiers.alt }}" class="media__img testimony__img">
 						{% endfor %}
-						<p>{{ t.work.quotes.testifier-name-1 }}<br>{{ t.work.quotes.testifier-function-1 }}</p>
+						<p>{{ t.work.quotes.testifier-name-1 }}<br>{{ t.work.quotes.testifier-function-1 }}<br><span class="text-italic">{{ t.work.quotes.testifier-children-1 }}</span></p>
 					</div>
 					<div class="media__body lg-pdgv">
 						<q class="testimony__content text-bold mrg0">{{ t.work.quotes.quote-1 }}</q>
