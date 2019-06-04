@@ -14,6 +14,7 @@ sections:
 - type: document
   path: saka04/letitshine/_data/translations.yml
   label: Contenu
+  read_only: false
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"
