@@ -12,3 +12,13 @@
 		border: 2px double $element-color;
 	}
 }
+
+
+.btn--form{
+	border: 2px double $validate;
+
+	&:hover{
+		color: $alt-white;
+		transform: scale(1.04);
+	}
+}

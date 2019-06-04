@@ -16,9 +16,14 @@
     }
 	}
 
-	  .social__header__link:hover{
-	    color: $alt-color;
-	  }
+	  .social__header__link{
+      color: $alt-color;
+
+      &:hover{
+  	    color: $alt-color-light;
+  	  }
+    }
+
 	  
   .social__footer{
 		display: inline-block;
