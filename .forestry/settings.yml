@@ -9,6 +9,12 @@ sections:
   label: Let it shine!
   create: all
   match: "**/*"
+- type: heading
+  label: Textes
+- type: document
+  path: saka04/letitshine/_data/translations.yml
+  label: Contenu
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
