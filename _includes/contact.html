@@ -5,15 +5,15 @@
 			<div class="sm-w-1/2 grid__item xs-mrgt">
 				<h2 class="text-center mrgb+">Un RDV? Un devis? Une question?</h2>
 				<form method="POST" action="https://formspree.io/masha@letitshine.ch">
-					<h3>Let it shine est à votre disposition</h3>
+					<h3>Let it shine! est à votre disposition</h3>
 					<input type="hidden" name="_language" value="fr">
 					<input type="hidden" name="_subject" value="Nouveau message de letitshine.ch">
 				    <div class="form-group">
-				        <label for="name" class="field-label">Prénom, Nom</label>
-				        <input type="text" id="name" class="field" placeholder="Marie Kondo" name="name" required>
+				        <label for="name" class="field-label">Prénom, Nom<span class="required">*</span></label>
+				        <input type="text" id="name" class="field" placeholder="Isabelle Monthey" name="name" required>
 				    </div>
 				    <div class="form-group">
-				        <label for="email" class="field-label">Email</label>
+				        <label for="email" class="field-label">Email<span class="required">*</span></label>
 				        <input type="text" id="email" class="field" placeholder="email@email.ch" name="_replyto" required>
 				    </div>
 				    <input type="text" name="_gotcha" class="honeypot">
@@ -35,8 +35,13 @@
 				        <label for="message" class="field-label">Message</label>
 				        <textarea id="message" rows="4" class="field" placeholder="Besoins, souhaits, horaires de rappel..." name="message"></textarea>
 				    </div>
+			        <div class="form-group">
+					    <label for="checkbox-1" class="label">
+			        		<input type="checkbox" id="checkbox-1" class="checkbox" required>J'autorise Let it shine! à utiliser mes coordonnées dans un but commercial en lien avec les activités de Let it shine! uniquement.
+					    </label>
+				    </div>
 				    <div class="form-group">
-				        <button type="submit" class="btn btn--primary btn--form text-bold pull-right">J'envoie ma demande!</button>
+				        <button type="submit" class="btn btn--form text-bold pull-right">J'envoie ma demande!</button>
 				    </div>
 				</form>
 			</div>

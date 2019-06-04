@@ -15,10 +15,18 @@
 
 
 .btn--form{
+	background-color: $validate;
 	border: 2px double $validate;
+	color: $alt-white;
+
+	@include media(sm){
+		background-color: $alt-white;
+		color: $validate;
+	}
 
 	&:hover{
 		color: $alt-white;
+		background-color: $validate;
 		transform: scale(1.04);
 	}
 }
