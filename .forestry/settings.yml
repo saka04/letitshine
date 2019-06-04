@@ -14,12 +14,12 @@ sections:
 - type: document
   path: saka04/letitshine/_data/translations.yml
   label: Contenu
-  match: "**/*"
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"
 use_front_matter_path: true
 file_template: ":filename:"
+instant_preview: true
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
