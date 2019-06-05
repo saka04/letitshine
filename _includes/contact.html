@@ -3,9 +3,9 @@
 		<h1 class="section__title mrgb">{{ t.contact.title }}</h1>
 		<div class="grid grid--multiline">
 			<div class="sm-w-1/2 grid__item xs-mrgt">
-				<h2 class="text-center mrgb+">Un RDV? Un devis? Une question?</h2>
+				<h2 class="text-center">Un RDV? Un devis? Une question?</h2>
+				<h3 class="text-center">Let it shine! est à votre disposition</h3>
 				<form method="POST" action="https://formspree.io/masha@letitshine.ch">
-					<h3>Let it shine! est à votre disposition</h3>
 					<input type="hidden" name="_language" value="fr">
 					<input type="hidden" name="_subject" value="Nouveau message de letitshine.ch">
 				    <div class="form-group">
@@ -37,11 +37,11 @@
 				    </div>
 			        <div class="form-group">
 					    <label for="checkbox-1" class="label">
-			        		<input type="checkbox" id="checkbox-1" class="checkbox" required>J'autorise Let it shine! à utiliser mes coordonnées dans un but commercial en lien avec les activités de Let it shine! uniquement.
+			        		<input type="checkbox" id="checkbox-1" class="checkbox" required>Par le biais de ce formulaire j'autorise Let it shine! à conserver mes coordonnées uniquement pour les services me concernant<span class="required">*</span> (vos données ne seront jamais transmises ou vendues à des tiers!)
 					    </label>
 				    </div>
 				    <div class="form-group">
-				        <button type="submit" class="btn btn--form text-bold pull-right">J'envoie ma demande!</button>
+				        <button type="submit" class="btn btn--form text-bold">J'envoie ma demande!</button>
 				    </div>
 				</form>
 			</div>
@@ -57,17 +57,10 @@
 					{{ t.contact.address-2 }}<br>
 				</address>
 				<p class="text-center">{{ t.contact.catch }}</p>
-			</div>
-		</div>
-		<h2 class="text-center mrgb+">Partenaires</h2>
-		<div class="media media--responsive md-mrgh">
-			<div class="media__left">
-				<a href="http://www.osirisfleurs.ch/" target="_blank" title="Pour garnir votre intérieur à des prix partenaire!">
-					<img class="img-block align-center partner" src="assets/images/osiris-capture.PNG" alt="logo Osiris fleurs">
-				</a>
-			</div>
-			<div class="media__body">
-				<p class="mrg0">Osiris Fleurs est un fleuriste situé à St-Sulpice à l'ouest de Lausanne. Partenaire de Let it shine!, Osiris Fleurs dispose de produits locaux pour garnir vos intérieurs, après une sélection rigoureuse et soignée par Masha!</p>
+				<h2 class="text-center mrgb+">Partenaires</h2>
+					<a href="http://www.osirisfleurs.ch/" target="_blank" title="Pour garnir votre intérieur à des prix partenaire!">
+						<img class="img-block align-center partner" src="assets/images/osiris-capture.PNG" alt="logo Osiris fleurs">
+					</a>
 			</div>
 		</div>
 	</div>

@@ -2,6 +2,16 @@
   CONTACT
 \*----------------------------------------*/
 
+
+form{
+	padding: 15px;
+	border: dotted 1px $alt-color;
+}
+
+.required{
+	color: red;
+}
+
 address a{
 	color: $alt-color;
 	text-decoration: none;
@@ -20,8 +30,4 @@ address a{
 	&:hover{
 		opacity: .8;
 	}
-}
-
-.required{
-	color: red;
 }
