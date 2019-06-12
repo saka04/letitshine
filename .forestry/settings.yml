@@ -1,5 +1,5 @@
 ---
-new_page_extension: md
+new_page_extension: html
 auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
@@ -14,7 +14,6 @@ sections:
 - type: document
   path: saka04/letitshine/_data/translations.yml
   label: Contenu
-  read_only: false
 - type: heading
   label: Heading
 upload_dir: forestryio/images
