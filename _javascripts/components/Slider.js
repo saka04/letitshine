@@ -13,7 +13,7 @@ export default class Slider {
       spaceBetween: 30,
       breakpoints: {
         450: {
-          slidesPerView: 1, //below 350, non mobile first.
+          slidesPerView: 1, //below 350. Non mobile first.
         }
       },
 

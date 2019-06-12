@@ -41,7 +41,6 @@ h1 {
   }
 }
 
-
 h3 {
   color: $alt-color-dark;
   margin-top: .5em;
@@ -53,4 +52,19 @@ h3 {
   font-size: 2em;
   font-weight: bold;
   padding-bottom: -5%;
+}
+
+.idiom{
+  color: $alt-color-dark;
+  text-decoration: none;
+  display: inline-block;
+
+  @include media('md'){
+    padding-top: .4em;
+  }
+
+  &:hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }

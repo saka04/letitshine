@@ -1,0 +1,10 @@
+/*----------------------------------------*\
+  BOX
+\*----------------------------------------*/
+
+.box--home{ 
+	padding: $spacing-unit-small;
+	border: 1px solid $alt-color-light;
+	border-radius: 20px;
+	box-shadow: 1px 1px 3px 4px $alt-color-lighter;
+}

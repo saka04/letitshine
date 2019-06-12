@@ -1,18 +1,18 @@
 <section id="work" class="section section--huge">
 	<div class="container">
 		<h1 class="section__title mrb+">{{ t.work.title }}</h1>
-
+		
 		<div class="swiper-container swiper-container-horizontal mrgv++">
 		    <div class="swiper-wrapper">
 					{% for work in site.data.work %}
 			      <img src="{{ work.image | prepend:site.baseurl }}" alt="{{ work.alt }}" class="swiper-slide">
 					{% endfor %}
 		    </div>
-		    <div class="swiper-pagination"></div>
+		    <div class="swiper-pagination">
+		    </div>
 
 		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
 		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
-			</div>
 		</div>
 
 		<h2 class="text-center">{{ t.work.quotes.title }}</h2>

@@ -5,7 +5,14 @@
 
 form{
 	padding: 15px;
-	border: dotted 1px $alt-color;
+	border: dotted .5px $alt-color;
+}
+
+.homeform{
+	@include media('sm'){
+		width: 70%;
+		margin: 0 auto;
+	}
 }
 
 .required{

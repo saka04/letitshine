@@ -9,7 +9,8 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
-    <link rel="shortcut icon" type="image/ico" href="./letitshine/assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico" />
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}">{% endfor %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141223703-1"></script>
     <script>
@@ -39,5 +40,72 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="{{ '/assets/javascripts/common.js' | prepend: site.baseurl }}"></script>
+    <script>
+      //SERVICES TABS
+
+      function openService(evt, service) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+
+        // hides everything
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        
+        // removes active from all
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // breakup class names into parts
+        document.getElementById(service).style.display = "block";
+        var tab = evt.currentTarget.className;
+        tab = tab.split(" ");
+
+        // find the active class, hide it and give it the original class name
+        if (tab[2] == "active"){
+          document.getElementById(service).style.display = "none";
+          evt.currentTarget.className = tab[0] + " " + tab[1];
+          evt.currentTarget.blur();
+
+        // activate the selected button
+          } else if (tab[2] != "active"){
+
+        // removes active from class
+          servicelinks = document.getElementsByClassName("services");
+          for (i = 0; i < servicelinks.length; i++) {
+            servicelinks[i].className = "services text-bold";
+            //servicelinks[i].blur();
+          }
+        evt.currentTarget.className += " active";
+        }
+      }
+    </script>
+    <script type="text/javascript"> 
+    //BURGER NAV TOGGLE COLLAPSE 
+      window.addEventListener('DOMContentLoaded', function() {
+        var ContainerNavCollapse = document.querySelector('#collapse-container-nav');
+
+        if (ContainerNavCollapse) {
+          new Toolkit.Collapse(ContainerNavCollapse);
+        }
+
+        var navList = document.querySelectorAll('.js-nav-link');
+
+        if (navList) {
+          new Toolkit.Nav(navList);
+        }
+
+        var hamburger = document.querySelector(".hamburger");
+        if (hamburger) {
+          hamburger.addEventListener("click", function() {
+            hamburger.classList.toggle("is-active");
+          });
+        }
+      });
+    </script>
   </body>
 </html>

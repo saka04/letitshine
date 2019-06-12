@@ -1,0 +1,89 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<section id="services" class="section section--huge">
+	<div class="container">
+
+		<!-- SERVICE 1 -->
+
+		<h1 class="mrgv+">{{ t.organize.title }}</h1>
+		<h2 class="mrgt-- md-mrgl">{{ t.organize.subtitle }}</h2>
+		<div class="media media--responsive mrgh0 md-mrgh">
+			<div class="media__right">
+				<img src="assets/images/illu-orga.png" alt="plante coton" class="media__img">
+			</div>
+			<div class="media__body">
+				<p>{{ t.organize.description-1 }}</p>
+				<p>{{ t.organize.description-2 }}</p>
+				<p>{{ t.organize.description-3 }}</p>
+			</div>
+		</div>
+
+
+		<div class="mrgh0 md-mrgh">
+
+		<!-- SERVICE 1 : SUB SERVICES MENU -->
+
+			<ul class="list services__list mrgt+">
+				<li class="pdgb+"><a class="services text-bold" title="Voir le Home Refresh" onclick="openService(event, 'Refresh');return false;" href="#">{{ t.organize.subservice-1.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" title="Voir le Coaching" onclick="openService(event, 'Coaching');return false;" href="#">{{ t.organize.subservice-2.title }}</a></li>
+			</ul>
+		
+		<!-- SERVICE 1 : SUB SERVICES CONTENT -->
+
+			<div id="Refresh" class="tabcontent">
+				<p class="mrgt0">{{ t.organize.subservice-1.description-1 }}</p>
+				<p>{{ t.organize.subservice-1.description-2 }}</p>
+				<p>{{ t.organize.subservice-1.description-3 }}</p>
+				<ul>
+					<li><p><span class="text-bold">{{ t.organize.subservice-1.description-4 }}</span>&nbsp{{ t.organize.subservice-1.description-5 }}</p></li>
+					<li><p><span class="text-bold">{{ t.organize.subservice-1.description-6 }}</span>&nbsp{{ t.organize.subservice-1.description-7 }}</p></li>
+					<li><p><span class="text-bold">{{ t.organize.subservice-1.description-8 }}</span>&nbsp{{ t.organize.subservice-1.description-9 }}</p></li>
+				</ul>
+				<p class="text-italic">{{ t.organize.subservice-1.rate }}</p>
+				{% if page.lang == 'fr' %}
+				<a href="/contact.html/#contact" class="btn btn--service mrgt" title="Je souhaite un Home Refresh!">{{ t.organize.subservice-1.cta }}</a>
+				{% endif %}
+				{% if page.lang == 'en' %}
+				<a href="/contact-us.html/contact" class="btn btn--service mrgt" title="I want a Home Refresh!">{{ t.organize.subservice-1.cta }}</a>
+				{% endif %}
+			</div>
+
+			<div id="Coaching" class="tabcontent">
+				<p class="mrgt0">{{ t.organize.subservice-2.description-1 }}</p>				
+				<p>{{ t.organize.subservice-2.description-2 }}</p>
+				<p class="text-italic">{{ t.organize.subservice-2.rate }}</p>
+				{% if page.lang == 'fr' %}
+				<a href="/contact.html/#contact" class="btn btn--service mrgt" title="Je souhaite un Coaching!">{{ t.organize.subservice-2.cta }}</a>
+				{% endif %}
+				{% if page.lang == 'en' %}
+				<a href="/contact.html/#contact" class="btn btn--service mrgt" title="I want a Coaching!">{{ t.organize.subservice-2.cta }}</a>
+				{% endif %}
+			</div>
+
+		</div>
+
+		<!-- GALERIE ORGANISATION -->
+
+		<h2 class="section__title mrb+ md-mrgh">{{ t.organize.work.title }}</h2>
+		<div class="swiper-container swiper-container-horizontal mrgv+">
+		    <div class="swiper-wrapper">
+				{% for orga in site.data.orga %}
+			      <img src="{{ orga.image | prepend:site.baseurl }}" alt="{{ orga.alt }}" class="swiper-slide">
+				{% endfor %}
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
+		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
+		</div>
+		<div class="btn--container sm-mrgt++ sm-mrgb+">
+			{% if page.lang == 'fr' %}
+			<a href="/decorer.html" class="btn btn--service">{{ t.organize.explore.title-1 }}</a>
+			<a href="/contact.html" class="btn btn--service">{{ t.organize.explore.title-2 }}</a>
+			{% endif %}
+			{% if page.lang == 'en' %}
+			<a href="/decorate.html" class="btn btn--service">{{ t.organize.explore.title-1 }}</a>
+			<a href="/contact-us.html" class="btn btn--service">{{ t.organize.explore.title-2 }}</a>
+			{% endif %}
+		</div>
+	</div>
+</section>

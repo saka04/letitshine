@@ -1,0 +1,89 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<section id="services" class="section section--huge">
+	<div class="container">
+		
+		<!-- SERVICE 2 -->
+
+		<h1 class="mrgv+">{{ t.decorate.title }}</h1>
+		<h2 class="mrgt-- md-mrgl">{{ t.decorate.subtitle }}</h2>
+		<div class="media media--responsive mrgh0 md-mrgh">
+			<div class="media__right">
+				<img src="assets/images/illu-deco.png" alt="plante eucalyptus" class="media__img">
+			</div>
+			<div class="media__body">
+				<p>{{ t.decorate.description-1 }}</p>
+				<p>{{ t.decorate.description-2 }}</p>
+			</div>
+		</div>
+
+
+		<div class="mrgh0 md-mrgh">
+		
+		<!-- SERVICE 2 : SUB SERVICES MENU -->
+			
+			<ul class="list services__list mrgt+">
+				<li class="pdgb+"><a class="services text-bold" title="Voir le Home Design" onclick="openService(event, 'Design');return false;" href="#">{{ t.decorate.subservice-1.title }}</a></li>
+				<li class="pdgb+"><a class="services text-bold" title="Voir les conseils" onclick="openService(event, 'Advice');return false;" href="#">{{ t.decorate.subservice-2.title }}</a></li>
+			</ul>
+
+		<!-- SERVICE 2 : SUB SERVICES CONTENT -->
+
+			<div id="Design" class="tabcontent">
+				<p class="mrgt0">{{ t.decorate.subservice-1.description-1 }}</p>
+				<p>{{ t.decorate.subservice-1.description-2 }}</p>
+				<p>{{ t.decorate.subservice-1.description-3 }}</p>
+				<ul>
+					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-4 }}</span>&nbsp{{ t.decorate.subservice-1.description-5 }}</p></li>
+					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-6 }}</span>&nbsp{{ t.decorate.subservice-1.description-7 }}</p></li>
+					<li><p class="text-bold">{{ t.decorate.subservice-1.description-8 }}</p></li>
+					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-9 }}</span>&nbsp{{ t.decorate.subservice-1.description-10 }}</p></li>
+				</ul>
+				<p class="text-italic">{{ t.decorate.subservice-1.rate }}</p>
+				{% if page.lang == 'fr' %}
+				<a href="/contact.html/#contact" title="Je souhaite un Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
+				{% endif %}
+				{% if page.lang == 'en' %}
+				<a href="/contact.html/#contact" title="I want a Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
+				{% endif %}
+			</div>
+
+			<div id="Advice" class="tabcontent">
+				<p class="mrgt0">{{ t.decorate.subservice-2.description-1 }}</p>				
+				<p>{{ t.decorate.subservice-2.description-2 }}</p>
+				<p>{{ t.decorate.subservice-2.description-3 }}</p>
+				<p class="text-italic">{{ t.decorate.subservice-2.rate }}</p>
+				{% if page.lang == 'fr' %}
+				<a href="/contact.html/#contact" title="Je veux des conseils!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
+				{% endif %}
+				{% if page.lang == 'en' %}
+				<a href="/contact.html/#contact" title="I want some advice!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
+				{% endif %}
+			</div>
+		</div>
+
+		<!-- GALERIE DECORATION -->
+			
+		<h2 class="section__title mrb+ md-mrgh">{{ t.decorate.work.title }}</h2>
+		<div class="swiper-container swiper-container-horizontal mrgv+">
+		    <div class="swiper-wrapper">
+				{% for deco in site.data.deco %}
+			      <img src="{{ deco.image | prepend:site.baseurl }}" alt="{{ deco.alt }}" class="swiper-slide">
+				{% endfor %}
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
+		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
+		</div>
+		<div class="btn--container sm-mrgt++ sm-mrgb+">
+			{% if page.lang == 'fr' %}
+			<a href="/organiser.html" class="btn btn--service">{{ t.decorate.explore.title-1 }}</a>
+			<a href="/contact.html" class="btn btn--service">{{ t.decorate.explore.title-2 }}</a>
+			{% endif %}
+			{% if page.lang == 'en' %}
+			<a href="/organize.html" class="btn btn--service">{{ t.decorate.explore.title-1 }}</a>
+			<a href="/contact-us.html" class="btn btn--service">{{ t.decorate.explore.title-2 }}</a>
+			{% endif %}
+		</div>
+	</div>
+</section>

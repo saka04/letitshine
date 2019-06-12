@@ -1,7 +1,9 @@
-<section id="about" class="section section--huge">
+{% assign t = site.data.translations[page.lang] %}
+
+<section class="section section--huge">
 	<div class="container">
-		<h1 class="section__title mrgb+">{{ t.about.title }}</h1>
-		<div class="media media--responsive md-mrgh">
+		<h1 class="section__title mrgv+">{{ t.about.title }}</h1>
+		<div class="media media--responsive md-mrgh+">
 			<div class="media__left">
 				{% for about in site.data.about %}
 		        	<img src="{{ about.image | prepend:site.baseurl }}" alt="{{ about.alt }}" class="media__img">

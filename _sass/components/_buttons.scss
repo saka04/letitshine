@@ -2,19 +2,16 @@
   BUTTONS
 \*----------------------------------------*/
 
-.btn--service{
-	color: $alt-black;
-	border: 2px double $alt-color;
-	background-color: $alt-white;
+.btn{
+	width: 100%;
 
-	&:hover{
-		font-weight: bold;
-		border: 2px double $element-color;
+	@include media('md'){
+		width: auto;
 	}
 }
 
-
 .btn--form{
+	margin-top: 15px;
 	background-color: $validate;
 	border: 2px double $validate;
 	color: $alt-white;
@@ -22,5 +19,34 @@
 
 	&:hover{
 		transform: scale(1.02);
+	}
+}
+
+.btn--service{
+	color: $alt-black;
+	border: 2px double $alt-color;
+	background-color: $alt-white;
+	margin-top: 20px;
+
+	&:hover{
+		font-weight: bold;
+		border: 2px double $element-color;
+	}
+
+	@include media ('md'){
+		margin: 0;
+	}
+}
+
+
+.btn--container{
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+	@include media ('md'){
+		flex-direction: row;
 	}
 }
