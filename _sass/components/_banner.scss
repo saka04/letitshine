@@ -6,7 +6,7 @@
 .banner{
 	width: 100%;
 	height: 105vh;
-	background: url(images/flowers-and-candles.png);
+	background: url(images/flowers-and-candles.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -29,11 +29,11 @@
 	background: rgba(0, 0, 0, 0.6);
 
 	@include media ('md'){
-		bottom: 15%;
+		bottom: 25%;
 	}
 
 	@include media ('lg'){
-		bottom: 20%;
+		bottom: 25%;
 		left: 20%;
 		right: 20%;
 	}

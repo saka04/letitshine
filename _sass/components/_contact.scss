@@ -8,11 +8,8 @@ form{
 	border: dotted .5px $alt-color;
 }
 
-.homeform{
-	@include media('sm'){
-		width: 70%;
-		margin: 0 auto;
-	}
+.honeypot{
+	display: none;
 }
 
 .required{
