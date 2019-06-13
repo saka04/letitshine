@@ -169,33 +169,33 @@ en:
     about: About
     contact: Contact
   banner:
-    title-1: Let it shine! by Masha
+    title-1: Let it shine! by Masha W.
     title-2: For those who want a decorated and organized home.
   intro:
     title-1: A great solution
-    content-1: All of us have already felt this unbearable feeling in our home. This guilt that reminds us our plans we made about cleaning up, hanging up the curtain rail, nailing the frames… When time is a rare thing, when we are overwhelmed with work or family, it is quite normal to leave aside these small things that require our daily focus. It is a shame though, as we spend most of our time at home. Thus, if our home is not always an ideal place to live in and that we could feel better while coming back from work, we have to take back control over this daily plans and small things. But how exactly?
-    content-2: With Let it shine!, leave aside all the guilt and daily worries. Its main focuses are about space organizing and interior design. In that way, Let it shine! offers either a full service or provides support to those who need to reorganize their spaces, to understand organization methods, to decorate their interiors or receive some dedicated piece of advice. Be focused on what your wish for and discover the services at your disposal!
+    content-1: All of us have already felt this unbearable feeling in our home. This guilt that reminds us of our plans we made about tidying up, hanging up the curtains, find the right spot for every object, and much more. When time is a rare thing, when we are overwhelmed with work or family, it is quite normal to leave aside these small things that require our daily focus. It is a shame though, as we spend most of our time at home. Thus, if our home is not always an ideal place to live in and that we could feel better while coming back from work, we have to take back control over these daily plans and small things. But how exactly?
+    content-2: With Let it shine!, put away all the guilt and daily worries. Our main focus is about space organizing and interior design. In that way, Let it shine! offers either a full service or provides support to those who need to reorganize their spaces, to understand organization methods, to decorate their interiors or receive some dedicated piece of advice. Be focused on your desires and discover the services at your disposal!
     title-2: Dedicated services
     subtitle-1: Organizing
     service-1:
       title: Home Refresh & Coaching
       goal: >
-        Aims to: declutter your spaces
+        Goal: declutter your spaces
       format: >
-        Format: full carrying out or support
+        Format: full execution or guidance
       rate: >
         Rate: from CHF 80 to 100 per hour
-      cta: See Organizing
+      cta: Let's Organize!
     subtitle-2: Decorating
     service-2:
       title: Home Design & Advice
       goal: >
-        Aims to: design your interior
+        Goal: design your interior
       format: >
-        Format: full carrying out or support
+        Format: full execution or guidance
       rate: >
         Rate: from CHF 100 to 150 per hour
-      cta: See Decoration
+      cta: Let's Decorate!
     masha:
       title: Behind Let it shine!
       description-1: Masha is an interior designer and the founder of Let it shine!
@@ -204,8 +204,9 @@ en:
   organize:
     title: Organizing
     subtitle: For a peaceful life
-    description-1: It is not often we are aware that messy spaces have a direct impact on our well-being. With our consumer habits we tend to gather whole piles of goods without considering their proper space in our homes.
-    description-2: Kitchen, bedroom, living room, bathroom… All spaces can be reconsidered for a practical use in a day-to-day application while including a trendy appearance.
+    description-1: It is not often we are aware that messy spaces have a direct impact on our well-being. With our consumer habits we tend to accumulate lots of clutter without thinking about how they affect the space around us, not to mention our mental comfort.
+    description-2: >
+      The kitchen, the bedroom, the living room, the bathroom: all spaces can be reconsidered for a practical use in a day-to-day application while including a trendy appearance.
     description-3: >
       Let it shine! has 2 services for space organizing : a “Home Refresh” for a global service or a personal “Coaching”.
     subservice-1:
@@ -274,8 +275,8 @@ en:
     title: A little bit of happiness
     content-1: Let it shine! delivers solutions in space reorganisation and interior design. It was founded by Masha Wojcik, interior designer specialized in decoration and space organizing in 2018.
     content-2: >
-        For Masha, it is about mixing passion and professionalism to create an offer available to everyone. After working in household services for the past few years for several families in the Lausanne area, she realizes that many families are facing the same problematics: more and more goods in their homes, too much work, not enough time… She decides to bring her expertise and creativity to serve her existing clients and they are thrilled. Her job gets a new face and she founds Let it shine! to officialize her services.
-    content-3: Should you be a design addict, an overwhelmed expat or a full-time parent, Let it shine! suits all tastes and let you rediscover your home with a soothing atmosphere.
+        For Masha, it is about mixing passion and professionalism to create an offer available to everyone. After working in household services for the past few years for several families in the Lausanne area, she realizes that many families are facing the same problems: more and more clutter in their homes, too much work or not enough time to deal with. She decided to bring her expertise and creativity to serve her existing clients and they are thrilled. She pivoted to a new career and she founded Let it shine! to make her services official.
+    content-3: If you are design obsessed, an overwhelmed expat or a full-time parent, Let it shine! suits all your tastes and will let you rediscover your home with a new soothing atmosphere.
     content-4:
     explore:
       organize: Let's organize
