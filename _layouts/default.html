@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="/"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Let it shine! - Home organizing & décoration d’intérieur"/>
-    <meta property="og:description" content="Spécialistes en organisation d'espace, architecture d'intérieur et décoration à Lausanne, Suisse. Rénovation, aménagement et relooking pour appartements, maisons ou bureaux."/>
-    <meta property="og:image" content="//assets/images/LIS-logo.png"/>
+    <meta property="og:url" content="https://letitshine.ch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Let it shine! - Home organizing & décoration d’intérieur" />
+    <meta property="og:description" content="Spécialistes en organisation d'espace, architecture d'intérieur et décoration à Lausanne!" />
+    <meta property="og:image" content="https://letitshine.ch/assets/images/flowers-and-candles.jpg" />
+
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
     <link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico" />
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}">{% endfor %}
