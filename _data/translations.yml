@@ -91,14 +91,16 @@ fr:
       description-8: le choix des matériaux
       description-9: la gestion des opérations
       description-10: pour s’assurer du bon déroulement des travaux
-      rate: CHF 150.- / h.
+      rate: >
+        Tarif: CHF 150.- / h.
       cta: Je demande mon devis gratuit !
     subservice-2:
       title: Conseil
       description-1: Vous avez un goût prononcé pour la décoration mais avez besoin d’une idée fraîche et novatrice ? Let it shine! vous accompagne dans votre démarche.
       description-2: Lors d’un rendez-vous sur place, apprenez à comprendre votre environnement et évaluer les détails de l’espace. Vous obtiendrez des conseils pertinents sur l’emplacement des meubles et des objets, la gamme des couleurs à assortir, le design global…
       description-3: Tant d’informations à garder à l’esprit pour toute une vie !
-      rate: CHF 100.- / h
+      rate: >
+        Tarif: CHF 100.- / h
       cta: Je veux des conseils !
     explore:
       title-1: Je veux voir l'organisation
@@ -178,21 +180,21 @@ en:
     title-2: Dedicated services
     subtitle-1: Organizing
     service-1:
-      title: Home Refresh & Coaching
+      title: Home Refresh & Personal Coaching
       goal: >
         Goal: declutter your spaces
       format: >
-        Format: full execution or guidance
+        Format: full execution or training
       rate: >
         Rate: from CHF 80 to 100 per hour
       cta: Let's Organize!
     subtitle-2: Decorating
     service-2:
-      title: Home Design & Advice
+      title: Home Design & Personal Guidance
       goal: >
         Goal: design your interior
       format: >
-        Format: full execution or guidance
+        Format: full execution or training
       rate: >
         Rate: from CHF 100 to 150 per hour
       cta: Let's Decorate!
@@ -206,71 +208,73 @@ en:
     subtitle: For a peaceful life
     description-1: It is not often we are aware that messy spaces have a direct impact on our well-being. With our consumer habits we tend to accumulate lots of clutter without thinking about how they affect the space around us, not to mention our mental comfort.
     description-2: >
-      The kitchen, the bedroom, the living room, the bathroom: all spaces can be reconsidered for a practical use in a day-to-day application while including a trendy appearance.
+      The Kitchen, bedroom, living room, bathroom: all spaces can be reconsidered for a practical use in a day-to-day application with an improved trendy interior design.
     description-3: >
-      Let it shine! has 2 services for space organizing : a “Home Refresh” for a global service or a personal “Coaching”.
+      Let it shine! has two services for space organizing : a “Home Refresh” for an overall service or a “Personal Coaching”.
     subservice-1:
       title: Home Refresh
-      description-1: The “Home Refresh” service aims to reorganize the spaces that need a major decluttering.
+      description-1: The “Home Refresh” service aims to reorganize the spaces that need to be decluttered.
       description-2: >
-        Let it shine! brings a new perspective to the table to clean and organize your interior, according to your needs : furnitures, decoration, clothes, trinkets, everything! Perfect for those who need to rediscover their bedroom, living room or kitchen and benefit from a brand new comfort.
+        Let it shine! brings a new perspective to the table to tidy up and organize your interior, according to your needs : furniture, decoration, clothes, trinkets, and everything else! Perfect for those who need to rediscover their living room, bedroom or kitchen and feel comfortable again in their own home.
       description-3: >
-        The service consists in :
-      description-4: selecting your possessions
-      description-5: for keeping or clearing
+        Our service includes:
+      description-4: sorting your possessions
+      description-5: to figure out what is worth keeping
       description-6: placing elements
-      description-7: at their proper place, to facilitate the day-to-day usage
-      description-8: drafting a list with personal advice
-      description-9: to keep up with good habits
-      rate: CHF 100.- per hour (3 hours minimum) ; CHF 90.- after 4 hours.
-      cta: I want an offer!
+      description-7: in their proper place, to ease the day-to-day usage
+      description-8: devise a list with personal guidance
+      description-9: to maintain good habits
+      rate: >
+        Rate: CHF 100.- per hour (three hours minimum) and after four hours it’s down to CHF 90.- per hour.
+      cta: I want a quote!
     subservice-2: 
-      title: Coaching
-      description-1: You need to be reminded how all this works or just some advice? Book a meeting on site or a conference call!
-      description-2: You will let us know about your concerns and your habits to draw a global perspective on your lifestyle. Let it shine! will guide you in the steps to follow and will give you some tricks on how successfully organize your interior.
-      rate: CHF 80.- per hour
-      cta: I want a coaching!
+      title: Personal Coaching
+      description-1: You need to be reminded how all this works or just need some advice? Book a meeting through the site or a conference call!
+      description-2: Let us know about your concerns and your habits to draw a global view on your lifestyle. Let it shine! will guide step by step and give you the best tips & tricks on how to successfully organize your interior.
+      rate: >
+        Rate: CHF 80.- per hour
+      cta: Coach me!
     work:
       title: >
         Home organizing : before / after
     explore:
       title-1: What about decoration?
-      title-2: Let's be in touch!
+      title-2: Let's get in touch!
   decorate:
     title: Decorating
     subtitle: Feel at home
-    description-1: As the decoration of your interior when you move in or you’re doing small transformation is not always easy, Let it shine! brings its unique know-how and a great creativity. You benefit from a quality service while combining great design solutions and affordable prices.
+    description-1: We know it’s not always easy to decorate your interior. Let it shine! brings its unique know-how and great creativity to help you renovate or do some post-renovation touches. You benefit from a quality service while combining great design solutions and affordable prices.
     description-2: >
-      Let it shine! has 2 decoration services : a “Home Design” to fully renew your interior, or personal advice sessions.
+      Let it shine! has two decoration services : a “Home Design” to fully renew your interior, or “Personal Guidance” sessions.
     subservice-1:
       title: Home Design
       description-1: The “Home Design” service aims to dress up a new and practical design of your interior.
       description-2: After evaluating your needs, we work hand in hand from the idea to its execution. After the transformation of the space, your interior will be unique and you will hardly leave your home!
       description-3: >
-        The service consists in :
+        Our service includes:
       description-4: analyzing your needs,
       description-5: according to your budget
-      description-6: drawing a 3D plan
+      description-6: building up a 3D plan
       description-7: for space representation
       description-8: choosing materials
       description-9: managing the operations
-      description-10: from beginning to the end
+      description-10: from conception to realisation
       rate: >
         Rate: CHF 150.- per hour
-      cta: I want an offer!
+      cta: I want a quote!
     subservice-2:
-      title: Advice
-      description-1: You have a certain taste for decoration but you need a new idea or some fresh insights? Let it shine! is at your sides all along.
-      description-2: During an on-site meeting, you will learn how to understand your environment and assess the details around you. You will get some relevant advice on placing furnitures and items, on how to match colors, on the overall design…
-      description-3: So much information to keep in mind for the rest of your life!
+      title: Personal Guidance
+      description-1: You have a certain taste for decoration but you need new ideas or some fresh insights? Let it shine! is at your side all the way.
+      description-2: During an on-site meeting, you will learn how to understand your environment and assess the details around you when it comes to design. You will get some relevant advice on placing furniture and items, on how to match colors, on the overall design and much more.
+      description-3: This guide is the gift that keeps on giving when it comes to home design!
       rate: >
         Rate: CHF 100.- per hour
-      cta: I want some advice!
+      cta: Guide me!
     explore:
       title-1: What about organization?
-      title-2: Let's be in touch!
+      title-2: Let's get in touch!
     work:
-      title: Decoration work
+      title: Decoration examples
   about:
     title: A little bit of happiness
     content-1: Let it shine! delivers solutions in space reorganisation and interior design. It was founded by Masha Wojcik, interior designer specialized in decoration and space organizing in 2018.

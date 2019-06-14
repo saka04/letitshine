@@ -10,6 +10,13 @@
 	}
 }
 
+.btn--home{
+	@include media ('md'){
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
 .btn--form{
 	margin-top: 15px;
 	background-color: $validate;
