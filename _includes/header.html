@@ -14,12 +14,15 @@
 				{% endif %}
 				<ul class="list-inline">
 					{% if page.lang == 'fr' %}
+					<li class="nav__item"><a href="/" class="nav__link" title="Accueil">{{ t.nav.home }}</a></li>
 					<li class="nav__item"><a href="/organiser.html" class="nav__link" title="Comment organiser mon intérieur?">{{ t.nav.organize }}</a></li>
 					<li class="nav__item"><a href="/decorer.html" class="nav__link" title="Comment décorer mon intérieur?">{{ t.nav.decorate }}</a></li>
 					<li class="nav__item"><a href="/a-propos.html" class="nav__link" title="Let it quoi?">{{ t.nav.about }}</a></li>
 					<li class="nav__item"><a href="/contact.html" class="nav__link" title="Je prends rendez-vous!">{{ t.nav.contact }}</a></li>
 					{% endif %}
-					{% if page.lang == 'en' %}<li class="nav__item"><a href="/organize.html" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
+					{% if page.lang == 'en' %}
+					<li class="nav__item"><a href="/home.html" class="nav__link" title="Home">{{ t.nav.home }}</a></li>
+					<li class="nav__item"><a href="/organize.html" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
 					<li class="nav__item"><a href="/decorate.html" class="nav__link" title="Help me decorate!">{{ t.nav.decorate }}</a></li>
 					<li class="nav__item"><a href="/about.html" class="nav__link" title="Let it what?">{{ t.nav.about }}</a></li>
 					<li class="nav__item"><a href="/contact-us.html" class="nav__link" title="I want a meeting!">{{ t.nav.contact }}</a></li>
@@ -38,7 +41,7 @@
 				<div class="mrgl+ flex flex-column language-box">
 					{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 					{% for page in pages %}
-						<a href="{{ page.url }}" class="idiom text-uppercase" >{{ page.lang }}</a>
+						<a href="{{ page.url }}" class="idiom" >{{ page.lang }}</a>
 					{% endfor %}
 				</div>
 			</div>

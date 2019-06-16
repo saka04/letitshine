@@ -1,5 +1,6 @@
 fr:
   nav:
+    home: Accueil
     organize: Organiser
     decorate: Décorer
     about: A propos
@@ -10,7 +11,7 @@ fr:
   intro:
     title-1: Un partenaire d'exception
     content-1: Nous avons tous déjà vécu cette sensation pesante dans notre appartement ou notre maison. Cette petite sensation de culpabilité qui nous rappelle que l'on avait prévu de ranger ci, trier ça, passer l'aspirateur, acheter une tringle, poser des cadres... Quand le temps manque, que nous sommes débordés par notre travail ou au service de notre famille, il est normal de laisser traîner ces petites choses de la vie qui nécessitent une attention quotidienne. C'est pourtant dommage, étant donné que nous passons une grande partie de notre temps à la maison. Ainsi, si notre intérieur n'est pas toujours idéal à vivre et que nous pourrions nous y sentir mieux, il convient de prendre en main ces petites choses du quotidien. Mais comment ?
-    content-2: Avec Let it shine!, laissez de côté la culpabilité et ces tracas du quotidien. Ses activités se concentrent sur l'organisation d'espace et la décoration d'intérieur. Ainsi, elle propose une prise en main globale ou un soutien adapté à ses clients qui souhaitent ré-agencer leurs espaces, comprendre les méthodes d'organisation, décorer leur intérieur ou recevoir des conseils personnalisés. Concentrez vous sur vos souhaits et découvrez les services à disposition !
+    content-2: Avec Let it shine!, laissez de côté la culpabilité et les tracas du quotidien. Ses activités se concentrent sur l'organisation d'espace et la décoration d'intérieur. Ainsi, Let it shine! propose une prise en main globale ou un soutien adapté à ses clients qui souhaitent ré-agencer leurs espaces, comprendre les méthodes d'organisation, décorer leur intérieur ou recevoir des conseils personnalisés. Concentrez vous sur vos souhaits et découvrez les services à disposition !
     title-2: Des services adaptés
     subtitle-1: Organiser
     service-1:
@@ -21,7 +22,7 @@ fr:
         Format: réalisation ou accompagnement
       rate: >
         Tarif: de 80 à 100 CHF / H
-      cta: Voir l'organisation
+      cta: J'organise!
     subtitle-2: Décorer
     service-2:
       title: Home Design & Conseils
@@ -31,7 +32,7 @@ fr:
         Format: prise en charge ou conseils
       rate: >
         Tarif: de 100 à 150 CHF / H
-      cta: Voir la décoration
+      cta: Je décore!
     masha:
       title: Derrière Let it shine!
       description-1: Masha est architecte d'intérieur et fondatrice de Let it shine!
@@ -122,7 +123,7 @@ fr:
     testifier-name-1: Meta De Boer
     testifier-function-1: Independent Leadership Consultant
     testifier-children-1: 2 enfants
-    quote-1: "Masha est une décoratrice hors pair! Elle a travaillé chez nous ces dernières années. Sa personnalité est éclatante, et ses compétences en décoration et personnalisation d’espaces intérieurs sont remarquables. Autonome, créative et passionnée, elle vous invite à participer de manière constructive. Je ne peux que vivement la recommander à toute personne ayant besoin de ses services en décoration d’intérieur : grâce à elle mon appartement et même ma vie quotidienne se retrouvent mieux organisées, et c’est un réel plaisir de rentrer chez soi !"
+    quote-1: "Masha est une décoratrice hors pair! Elle a travaillé dans notre appartement ces dernières années. Sa personnalité est éclatante, et ses compétences en décoration et personnalisation d’espaces intérieurs sont remarquables. Autonome, créative et passionnée, elle vous invite à participer de manière constructive. Je ne peux que vivement la recommander à toute personne ayant besoin de ses services en décoration d’intérieur : grâce à elle mon appartement et même ma vie quotidienne se retrouvent mieux organisées, et c’est un réel plaisir de rentrer chez soi !"
     testifier-name-2:
     testifier-function-2:
     testifier-children-2:
@@ -166,6 +167,7 @@ fr:
     copyright: Tous droits réservés
 en:
   nav:
+    home: Home
     organize: Organize
     decorate: Decorate
     about: About
