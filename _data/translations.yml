@@ -142,11 +142,13 @@ fr:
     service-1: >
       Organizing: Home Refresh
     service-2: >
-      Organizing: Coaching
+      Organizing: Personal Coaching
     service-3: >
       Décoration: Home Design
     service-4: >
       Décoration: Conseils
+    service-5: >
+      Autre
     message: Message
     rgpd-1: Par le biais de ce formulaire j'autorise Let it shine! à conserver mes coordonnées uniquement pour les services me concernant
     rgpd-2:  (vos données ne seront jamais transmises ou vendues à des tiers)
@@ -311,11 +313,13 @@ en:
     service-1: >
       Organizing: Home Refresh
     service-2: >
-      Organizing: Coaching
+      Organizing: Personal Coaching
     service-3: >
       Decoration: Home Design
     service-4: >
-      Decoration: Advice
+      Decoration: Personal Guidance
+    service-5: >
+      Other
     message: Message
     rgpd-1: With this form, I allow Let it shine! to keep my personal information for business purposes related to my profile only.
     rgpd-2:  (your data will never be given out or sold to third parties)
