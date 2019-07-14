@@ -13,58 +13,45 @@
 			</div>
 			<div class="media__body">
 				<p>{{ t.decorate.description-1 }}</p>
-				<p>{{ t.decorate.description-2 }}</p>
+				<p class="text-bold">{{ t.decorate.description-2 }}</p>
 			</div>
 		</div>
 
-
 		<div class="mrgh0 md-mrgh">
-		
-		<!-- SERVICE 2 : SUB SERVICES MENU -->
-			
-			<ul class="list services__list mrgt+">
-				<li class="pdgb+"><a class="services text-bold" title="Voir le Home Design" onclick="openService(event, 'Design');return false;" href="#">{{ t.decorate.subservice-1.title }}</a></li>
-				<li class="pdgb+"><a class="services text-bold" title="Voir les conseils" onclick="openService(event, 'Advice');return false;" href="#">{{ t.decorate.subservice-2.title }}</a></li>
+			<h3 class="services mrgt++">{{ t.decorate.subservice-1.title }}</h3>
+			<p class="mrgt0">{{ t.decorate.subservice-1.description-1 }}</p>
+			<p>{{ t.decorate.subservice-1.description-2 }}</p>
+			<p>{{ t.decorate.subservice-1.description-3 }}</p>
+			<ul>
+				<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-4 }}</span>&nbsp{{ t.decorate.subservice-1.description-5 }}</p></li>
+				<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-6 }}</span>&nbsp{{ t.decorate.subservice-1.description-7 }}</p></li>
+				<li><p class="text-bold">{{ t.decorate.subservice-1.description-8 }}</p></li>
+				<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-9 }}</span>&nbsp{{ t.decorate.subservice-1.description-10 }}</p></li>
 			</ul>
+			<p class="text-italic">{{ t.decorate.subservice-1.rate }}</p>
+			{% if page.lang == 'fr' %}
+			<a href="/contact.html" title="Je souhaite un Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
+			{% endif %}
+			{% if page.lang == 'en' %}
+			<a href="/contact-us.html" title="I want a Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
+			{% endif %}
 
-		<!-- SERVICE 2 : SUB SERVICES CONTENT -->
-
-			<div id="Design" class="tabcontent">
-				<p class="mrgt0">{{ t.decorate.subservice-1.description-1 }}</p>
-				<p>{{ t.decorate.subservice-1.description-2 }}</p>
-				<p>{{ t.decorate.subservice-1.description-3 }}</p>
-				<ul>
-					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-4 }}</span>&nbsp{{ t.decorate.subservice-1.description-5 }}</p></li>
-					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-6 }}</span>&nbsp{{ t.decorate.subservice-1.description-7 }}</p></li>
-					<li><p class="text-bold">{{ t.decorate.subservice-1.description-8 }}</p></li>
-					<li><p><span class="text-bold">{{ t.decorate.subservice-1.description-9 }}</span>&nbsp{{ t.decorate.subservice-1.description-10 }}</p></li>
-				</ul>
-				<p class="text-italic">{{ t.decorate.subservice-1.rate }}</p>
-				{% if page.lang == 'fr' %}
-				<a href="/contact.html" title="Je souhaite un Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
-				{% endif %}
-				{% if page.lang == 'en' %}
-				<a href="/contact-us.html" title="I want a Home Design!" class="btn btn--service mrgt">{{ t.decorate.subservice-1.cta }}</a>
-				{% endif %}
-			</div>
-
-			<div id="Advice" class="tabcontent">
-				<p class="mrgt0">{{ t.decorate.subservice-2.description-1 }}</p>				
-				<p>{{ t.decorate.subservice-2.description-2 }}</p>
-				<p>{{ t.decorate.subservice-2.description-3 }}</p>
-				<p class="text-italic">{{ t.decorate.subservice-2.rate }}</p>
-				{% if page.lang == 'fr' %}
-				<a href="/contact.html" title="Je veux des conseils!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
-				{% endif %}
-				{% if page.lang == 'en' %}
-				<a href="/contact-us.html" title="I want some advice!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
-				{% endif %}
-			</div>
+			<h3 class="services mrgt++">{{ t.decorate.subservice-2.title }}</h3>
+			<p class="mrgt0">{{ t.decorate.subservice-2.description-1 }}</p>				
+			<p>{{ t.decorate.subservice-2.description-2 }}</p>
+			<p>{{ t.decorate.subservice-2.description-3 }}</p>
+			<p class="text-italic">{{ t.decorate.subservice-2.rate }}</p>
+			{% if page.lang == 'fr' %}
+			<a href="/contact.html" title="Je veux des conseils!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
+			{% endif %}
+			{% if page.lang == 'en' %}
+			<a href="/contact-us.html" title="I want some advice!" class="btn btn--service mrgt">{{ t.decorate.subservice-2.cta }}</a>
+			{% endif %}
 		</div>
 
 		<!-- GALERIE DECORATION -->
 			
-		<h2 class="section__title mrb+ md-mrgh">{{ t.decorate.work.title }}</h2>
+		<h2 class="section__title mrgb+ mrgt++">{{ t.decorate.work.title }}</h2>
 		<div class="swiper-container swiper-container-horizontal mrgv+">
 		    <div class="swiper-wrapper">
 				{% for deco in site.data.deco %}

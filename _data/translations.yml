@@ -60,7 +60,7 @@ fr:
       description-9: pour garder de bonnes habitudes
       rate: >
         Tarif: CHF 100.- / h (minimum 3h) ; CHF 80.- à partir de la 4e heure.
-      cta: Je demande mon devis gratuit !
+      cta: Je souhaite un home refresh !
     subservice-2: 
       title: Coaching
       description-1: Besoin de quelques conseils ou d’une simple remise à niveau ? Convenez d’un rendez-vous sur place ou en vidéo-conférence !
@@ -94,7 +94,7 @@ fr:
       description-10: pour s’assurer du bon déroulement des travaux
       rate: >
         Tarif: CHF 150.- / h.
-      cta: Je demande mon devis gratuit !
+      cta: Je demande mon devis !
     subservice-2:
       title: Conseil
       description-1: Vous avez un goût prononcé pour la décoration mais avez besoin d’une idée fraîche et novatrice ? Let it shine! vous accompagne dans votre démarche.
@@ -133,8 +133,7 @@ fr:
     testifier-children-3:
     quote-3:
   form: 
-    title: Un RDV? Une question?
-    subtitle: Let it shine! est à votre disposition
+    title: Formulaire de contact
     name: Prénom, nom
     email: Email
     phone: Téléphone
@@ -155,6 +154,10 @@ fr:
     cta: J'envoie ma demande!
   contact:
     title: Contactez nous!
+    title-2: Un RDV? Une question?
+    description: Contactez Masha, rencontrez là et prenez les devants pour apporter à votre appartement, votre maison ou vos bureaux une touche de bien être. Redécouvrez votre salon, votre cuisine, salle de bain, chambre ou balcon.
+    description-2: Osez, rêvez, rangez, ré-organisez et décorez!
+    subtitle: Let it shine! est à votre disposition
     details: Coordonnées
     company: Let it shine!
     name: Masha Wójcik
@@ -163,7 +166,7 @@ fr:
     phone: +41 (0) 79 275 90 63
     address-1: Rue du Maupas 87
     address-2: 1004, Lausanne
-    catch: Premier RDV offert, devis gratuit et sans engagement!
+    catch: Premier RDV offert et sans engagement!
     partners: Partenaires
   footer:
     copyright: Tous droits réservés
@@ -304,8 +307,7 @@ en:
     testifier-children-3:
     quote-3:
   form: 
-    title: An offer? A meeting?
-    subtitle: Reach out!
+    title: Contact form
     name: First, Last
     email: Email
     phone: Phone
@@ -326,6 +328,10 @@ en:
     cta: Send my request
   contact:
     title: Contact us!
+    title-2: An offer? A meeting?
+    subtitle: Reach out!
+    description: Contact Masha, meet with her and bring a new atmosphere to your appartment, your house or your office. Discover your living room, your kitchen, your bathroom, or balcony again.
+    description-2: Dare, dream, organize, decorate!
     details: Details
     company: Let it shine!
     name: Masha Wójcik
