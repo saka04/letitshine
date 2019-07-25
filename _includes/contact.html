@@ -6,28 +6,25 @@
 	    <h2 class="md-text-center">{{ t.contact.title-2 }}</h2>
 	    <h3 class="md-text-center">{{ t.contact.subtitle }}</h3>
 	    <p class="md-mrgh++">{{ t.contact.description }}</p>
-	    <p class="md-mrgh++ md-text-center">{{ t.contact.description-2 }}</p>
-		<div class="grid grid--multiline md-mrgh+">
-			<div class="sm-w-1/2 grid__item">
-				{% include form.html %}
-			</div>
-			<div class="sm-w-1/2 grid__item">
-				<h2 class="text-center mrgb+">{{ t.contact.details }}</h2>
-				<address class="text-center">
-					<span class="text-bold">{{ t.contact.company }}</span><br>
-					{{ t.contact.name }}<br>
-					{{ t.contact.function }}<br>
-					<a href="mailto:masha@letitshine.ch" class="contact">{{ t.contact.email }}</a><br>
-					<a href="tel:{{ t.contact.phone }}">{{ t.contact.phone }}</a><br>
-					{{ t.contact.address-1 }}<br>
-					{{ t.contact.address-2 }}<br>
-				</address>
-				<p class="text-center">{{ t.contact.catch }}</p>
-				<h2 class="text-center mrgb+">{{ t.contact.partners }}</h2>
-					<a href="http://www.osirisfleurs.ch/" target="_blank" title="Pour garnir votre intérieur à des prix partenaire!" rel="noopener noreferrer nofollow">
-						<img class="img-block align-center partner" src="assets/images/osiris-capture.PNG" alt="logo Osiris fleurs">
-					</a>
-			</div>
+	    <p class="md-mrgh++ md-text-center" id="form">{{ t.contact.description-2 }}</p>
+		<div class="md-mrgh+">
+			{% include form.html %}
+		</div>
+		<h2 class="text-center mrgb+">{{ t.contact.details }}</h2>
+		<address class="text-center">
+			<span class="text-bold">{{ t.contact.company }}</span><br>
+			{{ t.contact.name }}<br>
+			{{ t.contact.function }}<br>
+			<a href="mailto:masha@letitshine.ch" class="contact">{{ t.contact.email }}</a><br>
+			<a href="tel:{{ t.contact.phone }}">{{ t.contact.phone }}</a><br>
+			{{ t.contact.address-1 }}<br>
+			{{ t.contact.address-2 }}<br>
+		</address>
+		<p class="text-center">{{ t.contact.catch }}</p>
+		<h2 class="text-center mrgb+">{{ t.contact.partners }}</h2>
+			<a href="http://www.osirisfleurs.ch/" target="_blank" title="Pour garnir votre intérieur à des prix partenaire!" rel="noopener noreferrer nofollow">
+				<img class="img-block align-center partner" src="assets/images/osiris-capture.PNG" alt="logo Osiris fleurs">
+			</a>
 		</div>
 	</div>
 </section>
