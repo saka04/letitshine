@@ -19,12 +19,13 @@
     display: block;
     line-height: 2em;
     font-size: rem(20px);
-  	color: $alt-color;
     font-weight: bold;
+  	color: $alt-color;
   	text-decoration: none;
 
   	&:hover {
   		color: $alt-color-light;
+      //border-bottom: solid 3px $alt-color-light;
   	}
   }
 
