@@ -7,9 +7,10 @@
   position: fixed;
   background-color: $alt-white;
   z-index: 100;
-  border-bottom: 1px solid $alt-color-lighter;
+  //border-bottom: 1px solid $alt-color-lighter;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.33);
 }
-
+ 
 .header__desktop,
 .header__mobile {
   padding: 10px 0;
