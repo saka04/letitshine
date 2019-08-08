@@ -5,17 +5,15 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: _data
+  label: Data
+  create: none
+  match: "**/*"
+- type: directory
   path: saka04/letitshine/_data
   label: Let it shine!
   create: all
   match: "**/*"
-- type: heading
-  label: Textes
-- type: document
-  path: saka04/letitshine/_data/translations.yml
-  label: Contenu
-- type: heading
-  label: Heading
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"
