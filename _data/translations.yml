@@ -8,36 +8,32 @@ fr:
   banner:
     title-1: Let it shine! by Masha Wojcik
     title-2: Architecte d'intérieur, Décoratrice et Home Organizer à Lausanne
-  intro:
-    title-1: Un partenaire d'exception
-    content-1: Nous avons tous déjà vécu cette sensation pesante dans notre appartement ou notre maison. Cette petite sensation de culpabilité qui nous rappelle que l'on avait prévu de ranger ci, trier ça, passer l'aspirateur, acheter une tringle, poser des cadres... Quand le temps manque, que nous sommes débordés par notre travail ou au service de notre famille, il est normal de laisser traîner ces petites choses de la vie qui nécessitent une attention quotidienne. C'est pourtant dommage, étant donné que nous passons une grande partie de notre temps à la maison. Si notre intérieur n'est pas toujours idéal à vivre et que l'on pourrait s'y sentir mieux, il convient de prendre en main ces petites choses du quotidien. Mais comment ?
-    content-2: Avec Let it shine!, laissez de côté la culpabilité et les tracas du quotidien. Nous nous concentrons sur l'organisation d'espace et la décoration d'intérieur. Ainsi, Let it shine! propose une prise en main globale ou un soutien adapté à ses clients qui souhaitent ré-agencer leurs espaces, apprendre des méthodes d'organisation, décorer leur intérieur et recevoir des conseils personnalisés. Concentrez vous sur vos souhaits et découvrez les services à disposition !
-    title-2: Des services adaptés
-    subtitle-1: Organiser
-    service-1:
-      title: Home Refresh & Coaching
-      goal: >
-        But: désencombrer vos espaces
-      format: >
-        Format: réalisation ou accompagnement
-      rate: >
-        Tarif: de 80 à 100 CHF / H
-      cta: J'organise!
-    subtitle-2: Décorer
-    service-2:
-      title: Home Design & Conseils
-      goal: >
-       But: décorer votre intérieur
-      format: >
-        Format: prise en charge ou conseils
-      rate: >
-        Tarif: de 100 à 150 CHF / H
-      cta: Je décore!
-    masha:
+  home:
+    intro:
+      title-1: Un partenaire d'exception
+      content-1: Nous avons tous déjà vécu cette sensation pesante dans notre appartement ou notre maison. Cette petite sensation de culpabilité qui nous rappelle que l'on avait prévu de ranger ci, trier ça, passer l'aspirateur, acheter une tringle, poser des cadres... Quand le temps manque, que nous sommes débordés par notre travail ou au service de notre famille, il est normal de laisser traîner ces petites choses de la vie qui nécessitent une attention quotidienne. C'est pourtant dommage, étant donné que nous passons une grande partie de notre temps à la maison. Si notre intérieur n'est pas toujours idéal à vivre et que l'on pourrait s'y sentir mieux, il convient de prendre en main ces petites choses du quotidien. Mais comment ?
+      content-2: Avec Let it shine!, laissez de côté la culpabilité et les tracas du quotidien. Nous nous concentrons sur l'organisation d'espace et la décoration d'intérieur. Ainsi, Let it shine! propose une prise en main globale ou un soutien adapté à ses clients qui souhaitent ré-agencer leurs espaces, apprendre des méthodes d'organisation, décorer leur intérieur et recevoir des conseils personnalisés. Concentrez vous sur vos souhaits et découvrez les services à disposition !
+    services:
+      title: Des services adaptés
+      subtitle-1: Organiser
+      service-1:
+        title: Home Refresh & Coaching
+        goal: Pour désencombrer vos espaces
+        format: En réalisation ou accompagnement
+        rate: 80 à 100 CHF / H
+        cta: J'organise!
+      subtitle-2: Décorer
+      service-2: 
+        title: Home Design & Conseils
+        goal: Pour décorer votre intérieur
+        format: Prise en charge ou conseils
+        rate: 100 à 150 CHF / H
+        cta: Je décore!
+    about:
       title: Derrière Let it shine!
       description-1: Basée à Lausanne (CH), Masha est architecte d'intérieur et fondatrice de Let it shine!
       description-2: Férue de design, elle souhaite apporter des solutions concrètes et exclusives à ses clients.
-      cta: Plus sur Masha & Let it shine!
+      cta: Je prends mon rdv gratuit!
   organize:
     title: Organiser
     subtitle: Pour vivre sereinement
@@ -180,36 +176,32 @@ en:
   banner:
     title-1: Let it shine! by Masha W.
     title-2: Interior Designer, Home Organizer and Decorator in Lausanne
-  intro:
-    title-1: A great solution
-    content-1: All of us have already felt this unbearable feeling in our home. This guilt that reminds us of our plans we made about tidying up, hanging up the curtains, find the right spot for every object, and much more. When time is a rare thing, when we are overwhelmed with work or family, it is quite normal to leave aside these small things that require our daily focus. It is a shame though, as we spend most of our time at home. Thus, if our home is not always an ideal place to live in and that we could feel better while coming back from work, we have to take back control over these daily plans and small things. But how exactly?
-    content-2: With Let it shine!, put away all the guilt and daily worries. Our main focus is about space organizing and interior design. In that way, Let it shine! offers either a full service or provides support to those who need to reorganize their spaces, to understand organization methods, to decorate their interiors or receive some dedicated piece of advice. Be focused on your desires and discover the services at your disposal!
-    title-2: Dedicated services
-    subtitle-1: Organizing
-    service-1:
-      title: Home Refresh & Personal Coaching
-      goal: >
-        Goal: declutter your spaces
-      format: >
-        Format: full execution or training
-      rate: >
-        Rate: from CHF 80 to 100 per hour
-      cta: Let's Organize!
-    subtitle-2: Decorating
-    service-2:
-      title: Home Design & Personal Guidance
-      goal: >
-        Goal: design your interior
-      format: >
-        Format: full execution or training
-      rate: >
-        Rate: from CHF 100 to 150 per hour
-      cta: Let's Decorate!
-    masha:
+  home:
+    intro:
+      title-1: A great solution
+      content-1: All of us have already felt this unbearable feeling in our home. This guilt that reminds us of our plans we made about tidying up, hanging up the curtains, find the right spot for every object, and much more. When time is a rare thing, when we are overwhelmed with work or family, it is quite normal to leave aside these small things that require our daily focus. It is a shame though, as we spend most of our time at home. Thus, if our home is not always an ideal place to live in and that we could feel better while coming back from work, we have to take back control over these daily plans and small things. But how exactly?
+      content-2: With Let it shine!, put away all the guilt and daily worries. Our main focus is about space organizing and interior design. In that way, Let it shine! offers either a full service or provides support to those who need to reorganize their spaces, to understand organization methods, to decorate their interiors or receive some dedicated piece of advice. Be focused on your desires and discover the services at your disposal!
+    services:
+      title: Dedicated services
+      subtitle-1: Organizing
+      service-1:
+        title: Home Refresh & Personal Coaching
+        goal: Declutter your spaces
+        format: Full execution or training
+        rate: From CHF 80 to 100 per hour
+        cta: Let's Organize!
+      subtitle-2: Decorating
+      service-2:
+        title: Home Design & Personal Guidance
+        goal: Design your interior
+        format: Full execution or training
+        rate: From CHF 100 to 150 per hour
+        cta: Let's Decorate!
+    about:
       title: Behind Let it shine!
       description-1: Masha is an interior designer and the founder of Let it shine!
       description-2: Passionate, she wishes to bring in-depth and exclusive solutions to her clients.
-      cta: More about Masha & Let it shine!
+      cta: I want my first free meeting!
   organize:
     title: Organizing
     subtitle: For a peaceful life

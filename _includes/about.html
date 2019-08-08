@@ -1,9 +1,9 @@
 {% assign t = site.data.translations[page.lang] %}
 
-<section class="section mrgb++">
+<section class="section--huge mrgb+">
 	<div class="container">
 		<h1 class="section__title mrgv+">{{ t.about.title }}</h1>
-		<div class="media media--responsive md-mrgh+">
+		<div class="media media--responsive md-mrgh+ sm-mrgb+">
 			<div class="media__left">
 				{% for about in site.data.about %}
 		        	<img src="{{ about.image | prepend:site.baseurl }}" alt="{{ about.alt }}" class="media__img">
@@ -16,7 +16,7 @@
 				<p>{{ t.about.content-4 }}</p>
 			</div>
 		</div>
-		<div class="btn--container sm-mrgt++ sm-mrgb">
+		<div class="btn--container sm-mrgb">
 			{% if page.lang == 'fr' %}
 			<a href="/organiser.html" class="btn btn--service">{{ t.about.explore.organize }}</a>
 			<a href="/decorer.html" class="btn btn--service">{{ t.about.explore.decorate }}</a>

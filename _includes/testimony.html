@@ -1,19 +1,15 @@
-{% assign t = site.data.translations[page.lang] %}
-
-<section class="section section--huge">
-	<div class="container">
-		<h1 class="section__title mrgv+">{{ t.testimony.title }}</h1>
-		<div class="testimony box box--default md-mrgh+">
-			<div class="media media--responsive">
-				<div class="media__left text-center">
-					{% for testifiers in site.data.testifiers %}
-					<img src="{{ testifiers.image | prepend:site.baseurl }}" alt="{{ testifiers.alt }}" class="media__img testimony__img">
-					{% endfor %}
-					<p>{{ t.testimony.testifier-name-1 }}<br>{{ t.testimony.testifier-function-1 }}<br><span class="text-italic">{{ t.testimony.testifier-children-1 }}</span></p>
-				</div>
-				<div class="media__body lg-pdgv">
-					<q class="testimony__content mrg0">{{ t.testimony.quote-1 }}</q>
-				</div>
+<section class="section--large">
+	<h1 class="section__title mrgv+">{{ t.testimony.title }}</h1>
+	<div class="testimony box box--default md-mrgh+">
+		<div class="media media--responsive">
+			<div class="media__left text-center">
+				{% for testifiers in site.data.testifiers %}
+				<img src="{{ testifiers.image | prepend:site.baseurl }}" alt="{{ testifiers.alt }}" class="media__img testimony__img">
+				{% endfor %}
+				<p>{{ t.testimony.testifier-name-1 }}<br>{{ t.testimony.testifier-function-1 }}<br><span class="text-italic">{{ t.testimony.testifier-children-1 }}</span></p>
+			</div>
+			<div class="media__body lg-pdgv">
+				<q class="testimony__content mrg0">{{ t.testimony.quote-1 }}</q>
 			</div>
 		</div>
 	</div>
