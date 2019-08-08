@@ -9,11 +9,6 @@ sections:
   label: Data
   create: none
   match: "**/*"
-- type: directory
-  path: saka04/letitshine/_data
-  label: Let it shine!
-  create: all
-  match: "**/*"
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"
