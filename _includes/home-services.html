@@ -1,0 +1,51 @@
+<section class="section--large">
+    <h1 class="mrgv+">{{ t.home.services.title }}</h1>
+    <div class="grid grid--center grid--even grid--multiline text-center sm-mrgh++">
+        <div class="grid__item md-w-1/2">
+            <div class="box--home box--default pusher pusher--vertical">
+                <div class="pusher__body mrgb">
+                    <h2 class="text-center mrgv">{{ t.home.services.subtitle-1}}</h2>
+                    <h3 class="mrgt0 mrgb">{{ t.home.services.service-1.title }}</h3>
+                    <ul class="list-stacked list-stacked--small list-stacked--divided">
+                        <li>
+                            {% if page.lang == 'fr' %}
+                            <a href="/organiser.html"><img src="/forestryio/images/home/home-1.png" class="media__home" alt="plante garnie"></a>
+                            {% endif %}
+                            {% if page.lang == 'en' %}
+                            <a href="/organize.html"><img src="/forestryio/images/home/home-1.png" class="media__home" alt="plante garnie"></a>
+                            {% endif %}
+                        </li>
+                        <li>{{ t.home.services.service-1.goal }}</li>
+                        <li>{{ t.home.services.service-1.format }}</li>
+                        <li>{{ t.home.services.service-1.rate }}</li>
+                    </ul>
+                </div>
+                {% if page.lang == 'fr' %}<a href="/organiser.html" class="btn btn--service text-bold">{{ t.home.services.service-1.cta }}</a>{% endif %}
+                {% if page.lang == 'en' %}<a href="/organize.html" class="btn btn--service text-bold">{{ t.home.services.service-1.cta }}</a>{% endif %}
+            </div>
+        </div>
+        <div class="grid__item md-w-1/2">
+            <div class="box--home box--default pusher pusher--vertical">
+                <div class="pusher__body mrgb">
+                    <h2 class="text-center mrgv">{{ t.home.services.subtitle-2}}</h2>
+                    <h3 class="mrgt0 mrgb">{{ t.home.services.service-2.title }}</h3>
+                    <ul class="list-stacked list-stacked--small list-stacked--divided">
+                        <li>
+                            {% if page.lang == 'fr' %}
+                            <a href="/decorer.html"><img src="/forestryio/images/home/home-2.png" class="media__home" alt="branche de coton"></a>
+                            {% endif %}
+                            {% if page.lang == 'en' %}
+                            <a href="/decorate.html"><img src="/forestryio/images/home/home-2.png" class="media__home" alt="branche de coton"></a>
+                            {% endif %}
+                        </li>
+                        <li>{{ t.home.services.service-2.goal }}</li>
+                        <li>{{ t.home.services.service-2.format }}</li>
+                        <li>{{ t.home.services.service-2.rate }}</li>
+                    </ul>
+                </div>
+                {% if page.lang == 'fr' %}<a href="/decorer.html" class="btn btn--service text-bold">{{ t.home.services.service-2.cta }}</a>{% endif %}
+                {% if page.lang == 'en' %}<a href="/decorate.html" class="btn btn--service text-bold">{{ t.home.services.service-2.cta }}</a>{% endif %}
+            </div>
+        </div>
+    </div>
+</section>

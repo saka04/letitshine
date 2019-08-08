@@ -1,0 +1,21 @@
+<section class="section--large mrgb+">
+    <h1 class="section__title mrgv+">{{ t.home.about.title }}</h1>
+    <div class="media media__portrait--container media--responsive md-mrgh++">
+        <div class="media__left lg-mrgl++">
+            {% if page.lang == 'fr' %}
+            <a href="/a-propos.html"><img id="masha" class="pdg media__portrait" src="forestryio/images/home/masha.png" alt="Masha Wojcik"></a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+            <a href="/about.html"><img id="masha" class="pdg media__portrait" src="forestryio/images/home/masha.png" alt="Masha Wojcik"></a>
+            {% endif %}
+        </div>
+        <div class="media__body">
+            <p>{{ t.home.about.description-1 }}</p>
+            <p>{{ t.home.about.description-2 }}</p>
+            <div class="mrgv">
+                {% if page.lang == 'fr' %}<a href="/contact.html#form" class="btn btn--service">{{ t.home.about.cta }}</a>{% endif %}
+                {% if page.lang == 'en' %}<a href="/contact-us.html#form" class="btn btn--service">{{ t.home.about.cta }}</a>{% endif %}
+            </div>
+        </div>
+    </div>
+</section>
