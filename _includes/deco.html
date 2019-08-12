@@ -51,17 +51,19 @@
 
 		<!-- GALERIE DECORATION -->
 			
-		<h2 class="section__title mrgb+ mrgt++">{{ t.decorate.work.title }}</h2>
-		<div class="swiper-container swiper-container-horizontal mrgv+">
-		    <div class="swiper-wrapper">
-				{% for deco in site.data.deco %}
-			      <img src="{{ deco.image | prepend:site.baseurl }}" alt="{{ deco.alt }}" class="swiper-slide">
-				{% endfor %}
-		    </div>
-		    <div class="swiper-pagination"></div>
-		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
-		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
+		<h2 class="section__title mrgb+ mrgt++ md-mrgh">{{ t.decorate.work.title }}</h2>
+
+		<h3 class="section__title mrgb mrgt+ md-mrgh">{{ t.decorate.work.subtitle-1 }} &copy <a href="https://www.photoforumpasquart.ch/fr/photoforum/team/" rel="noopener noreferrer nofollow" target="_blank" class="text-underline">Léa Kunz</a></h3>
+		<div class="grid">
+			{% for deco in site.data.deco %}
+			<div class="w-1/1 md-w-1/2 lg-w-1/3 grid__item mrgt">
+				<a href="{{ deco.url | prepend:site.baseurl }}" data-lightbox="decoration gallery">
+					<img class="media__grid grayscale" src="{{ deco.image | prepend:site.baseurl }}" data-alt="{{ deco.alt }}">
+				</a>
+			</div>
+			{% endfor %}
 		</div>
+
 		<div class="btn--container sm-mrgt++ sm-mrgb+">
 			{% if page.lang == 'fr' %}
 			<a href="/organiser.html" class="btn btn--service">{{ t.decorate.explore.title-1 }}</a>
@@ -72,5 +74,6 @@
 			<a href="/contact-us.html#form" class="btn btn--service">{{ t.decorate.explore.title-2 }}</a>
 			{% endif %}
 		</div>
+
 	</div>
 </section>

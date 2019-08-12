@@ -34,3 +34,33 @@
     border: 1px solid $alt-color;
     margin: 0 auto;
   }
+
+  .media__grid{
+    width: 100%;
+    height: auto;
+    border-top: 0.8px solid $alt-color-light;
+    padding-top: 20px;
+    transition: transform .5s ease;
+
+    &:hover{
+      transform: scale(1.02);
+    }
+  }
+
+  .media__grid-orga{
+    width: 100%;
+    height: auto;
+    border-top: 0.8px solid $alt-color-light;
+    padding-top: 20px;
+  }
+
+  
+  .grayscale{
+    @media screen and (min-width: 769px){
+      filter: grayscale(1);
+      
+      &:hover{
+        filter: none;
+      }
+    }
+  }

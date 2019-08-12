@@ -50,17 +50,19 @@
 
 		<!-- GALERIE ORGANISATION -->
 
-		<h2 class="section__title mrgb+ mrgt++">{{ t.organize.work.title }}</h2>
-		<div class="swiper-container swiper-container-horizontal mrgv+">
-		    <div class="swiper-wrapper">
-				{% for orga in site.data.orga %}
-			      <img src="{{ orga.image | prepend:site.baseurl }}" alt="{{ orga.alt }}" class="swiper-slide">
-				{% endfor %}
-		    </div>
-		    <div class="swiper-pagination"></div>
-		    <i class="mdi mdi-chevron-left swiper-button-prev"></i>
-		    <i class="mdi mdi-chevron-right swiper-button-next"></i>
+		<h2 class="section__title mrgb+ mrgt++ md-mrgh">{{ t.organize.work.title }}</h2>
+
+		<h3 class="section__title mrgb mrgt+ md-mrgh">{{ t.organize.work.subtitle-1 }}</h3>
+		<div class="grid">
+			{% for orga in site.data.orga %}
+			<div class="w-1/1 md-w-1/2 grid__item mrgt">
+				<a href="{{ orga.url | prepend:site.baseurl }}" data-lightbox="organisation gallery">
+					<img class="media__grid grayscale" src="{{ orga.image | prepend:site.baseurl }}" data-alt="{{ orga.alt }}">
+				</a>
+			</div>
+			{% endfor %}
 		</div>
+
 		<div class="btn--container sm-mrgt++ sm-mrgb+">
 			{% if page.lang == 'fr' %}
 			<a href="/decorer.html" class="btn btn--service">{{ t.organize.explore.title-1 }}</a>

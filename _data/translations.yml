@@ -3,6 +3,7 @@ fr:
     home: Accueil
     organize: Organiser
     decorate: Décorer
+    blog: Blog
     about: A propos
     contact: Contact
   banner:
@@ -65,7 +66,8 @@ fr:
         Tarif: CHF 80.- / h.
       cta: Je souhaite un coaching !
     work:
-      title: Réalisations avant / après
+      title: Réalisations
+      subtitle-1: 
     explore:
       title-1: Je veux voir la décoration
       title-2: Je prends contact !
@@ -104,6 +106,7 @@ fr:
       title-2: Je prends contact !
     work:
       title: Réalisations
+      subtitle-1: Photoshoot "Detailed Vision"
   about:
     title: Une touche de bien être
     content-1: Let it shine! offre à ses clients des solutions en (ré)organisation d'espaces personnels et en décoration. C'est Masha Wojcik, architecte d'intérieur spécialisée en décoration et organisation d'espace, qui crée la société en 2018.
@@ -171,6 +174,7 @@ en:
     home: Home
     organize: Organize
     decorate: Decorate
+    blog: Blog
     about: About
     contact: Contact
   banner:
@@ -235,7 +239,7 @@ en:
       cta: Coach me!
     work:
       title: >
-        Home organizing : before / after
+        Home organizing work
     explore:
       title-1: What about decoration?
       title-2: Let's get in touch!
@@ -274,6 +278,7 @@ en:
       title-2: Let's get in touch!
     work:
       title: Decoration examples
+      subtitle-1: Photoshoot "Detailed Vision"
   about:
     title: A little bit of happiness
     content-1: Let it shine! delivers solutions in space reorganisation and interior design. It was founded by Masha Wojcik, interior designer specialized in decoration and space organizing in 2018.

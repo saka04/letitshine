@@ -27,6 +27,7 @@
     "babel-loader": "^7.1.5",
     "browser-sync": "^2.26.7",
     "kanbasu": "^2.5.0",
+    "lightbox2": "^2.11.1",
     "run-sequence": "^2.2.1",
     "smooth-scroll": "^16.0.3",
     "webpack": "^4.30.0"
