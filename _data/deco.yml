@@ -1,28 +1,33 @@
+---
+- image: 20170724_184141.jpg
+  alt: ''
+  url: 20170724_184141.jpg
+  caption: ''
 - image: "/forestryio/images/deco/slide1.png"
   alt: Set de table frais
   url: "/forestryio/images/deco/slide1.png"
-  caption: "Joli set de table"
+  caption: Joli set de table
 - image: "/forestryio/images/deco/slide2.png"
   alt: Bougeoir et coton
   url: "/forestryio/images/deco/slide2.png"
-  caption: "Bougeoir et coton"
+  caption: Bougeoir et coton
 - image: "/forestryio/images/deco/slide3.png"
   alt: Set de table convivial
   url: "/forestryio/images/deco/slide3.png"
-  caption: "Set de table convivial"
+  caption: Set de table convivial
 - image: "/forestryio/images/deco/slide4.png"
   alt: Set de table fancy
   url: "/forestryio/images/deco/slide4.png"
-  caption: "Set de table fancy"
+  caption: Set de table fancy
 - image: "/forestryio/images/deco/slide5.png"
   alt: Set de table glamour
   url: "/forestryio/images/deco/slide5.png"
-  caption: "Set de table glamour"
+  caption: Set de table glamour
 - image: "/forestryio/images/deco/slide6.png"
   alt: Bougeoir et pot de fleurs
   url: "/forestryio/images/deco/slide6.png"
-  caption: "Bougeoir et pot de fleurs"
+  caption: Bougeoir et pot de fleurs
 - image: "/forestryio/images/deco/slide7.png"
   alt: Coton et bougies
   url: "/forestryio/images/deco/slide7.png"
-  caption: "Coton et bougies"
+  caption: Coton et bougies
