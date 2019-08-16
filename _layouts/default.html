@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://letitshine.ch" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Let it shine! - Home organizing & décoration d’intérieur" />
-    <meta property="og:description" content="Architecte d'intérieur spécialisée en organisation d'espace et décoration à Lausanne!" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:image" content="https://letitshine.ch/assets/images/flowers-and-candles.jpg" />
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">

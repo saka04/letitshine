@@ -3,29 +3,30 @@
 		<div class="header__desktop">
 			<div class="nav">
 				{% if page.lang == 'fr' %}
-				<a href="/accueil.html" class="nav__logo">
+				<a href="/" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine!">
 				</a>
 				{% endif %}
 				{% if page.lang == 'en' %}
-				<a href="/home.html" class="nav__logo">
+				<a href="/home" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine!">
 				</a>
 				{% endif %}
 				<ul class="list-inline">
 					{% if page.lang == 'fr' %}
 					<li class="nav__item"><a href="/" class="nav__link" title="Accueil">{{ t.nav.home }}</a></li>
-					<li class="nav__item"><a href="/organiser.html" class="nav__link" title="Comment organiser mon intérieur?">{{ t.nav.organize }}</a></li>
-					<li class="nav__item"><a href="/decorer.html" class="nav__link" title="Comment décorer mon intérieur?">{{ t.nav.decorate }}</a></li>
-					<li class="nav__item"><a href="/a-propos.html" class="nav__link" title="Let it quoi?">{{ t.nav.about }}</a></li>
-					<li class="nav__item"><a href="/contact.html" class="nav__link" title="Je prends rendez-vous!">{{ t.nav.contact }}</a></li>
+					<li class="nav__item"><a href="/organiser" class="nav__link" title="Comment organiser mon intérieur?">{{ t.nav.organize }}</a></li>
+					<li class="nav__item"><a href="/decorer" class="nav__link" title="Comment décorer mon intérieur?">{{ t.nav.decorate }}</a></li>
+					<!--<li class="nav__item"><a href="/blog" class="nav__link" title="Blog">{{ t.nav.blog }}</a></li>-->
+					<li class="nav__item"><a href="/a-propos" class="nav__link" title="Let it quoi?">{{ t.nav.about }}</a></li>
+					<li class="nav__item"><a href="/contact" class="nav__link" title="Je prends rendez-vous!">{{ t.nav.contact }}</a></li>
 					{% endif %}
 					{% if page.lang == 'en' %}
-					<li class="nav__item"><a href="/home.html" class="nav__link" title="Home">{{ t.nav.home }}</a></li>
-					<li class="nav__item"><a href="/organize.html" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
-					<li class="nav__item"><a href="/decorate.html" class="nav__link" title="Help me decorate!">{{ t.nav.decorate }}</a></li>
-					<li class="nav__item"><a href="/about.html" class="nav__link" title="Let it what?">{{ t.nav.about }}</a></li>
-					<li class="nav__item"><a href="/contact-us.html" class="nav__link" title="I want a meeting!">{{ t.nav.contact }}</a></li>
+					<li class="nav__item"><a href="/home" class="nav__link" title="Home">{{ t.nav.home }}</a></li>
+					<li class="nav__item"><a href="/organize" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
+					<li class="nav__item"><a href="/decorate" class="nav__link" title="Help me decorate!">{{ t.nav.decorate }}</a></li>
+					<li class="nav__item"><a href="/about" class="nav__link" title="Let it what?">{{ t.nav.about }}</a></li>
+					<li class="nav__item"><a href="/contact-us" class="nav__link" title="I want a meeting!">{{ t.nav.contact }}</a></li>
 					{% endif %}
 				</ul>
 				<div class="social social__header">
@@ -41,7 +42,7 @@
 				<div class="mrgl+ flex flex-column language-box">
 					{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 					{% for page in pages %}
-						<a href="{{ page.url }}" class="idiom" >{{ page.lang }}</a>
+						<a href="{{ page.url }}" class="idiom">{{ page.lang }}</a>
 					{% endfor %}
 				</div>
 			</div>
@@ -50,12 +51,12 @@
 		<div class="header__mobile">
 			<div class="nav">
 				{% if page.lang == 'fr' %}
-				<a href="/accueil.html" class="nav__logo">
+				<a href="/" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine!">
 				</a>
 				{% endif %}
 				{% if page.lang == 'en' %}
-				<a href="/home.html" class="nav__logo">
+				<a href="/home" class="nav__logo">
 					<img src="{{ "/assets/images/LIS-logo.png" | prepend: site.baseurl }}" class="header__logo" alt="Logo Let it shine!">
 				</a>
 				{% endif %}
@@ -71,15 +72,15 @@
 			<div class="box box--primary">
 				<ul class="list-stacked list-stacked--divided">
 					{% if page.lang == 'fr' %}
-					<li><a href="/organiser.html" class="nav__link" title="Comment organiser mon intérieur?">{{ t.nav.organize }}</a></li>
-					<li><a href="/decorer.html" class="nav__link" title="Comment décorer mon intérieur?">{{ t.nav.decorate }}</a></li>
-					<li><a href="/a-propos.html" class="nav__link" title="Let it quoi?">{{ t.nav.about }}</a></li>
-					<li><a href="/contact.html" class="nav__link" title="Je prends rendez-vous!">{{ t.nav.contact }}</a></li>
+					<li><a href="/organiser" class="nav__link" title="Comment organiser mon intérieur?">{{ t.nav.organize }}</a></li>
+					<li><a href="/decorer" class="nav__link" title="Comment décorer mon intérieur?">{{ t.nav.decorate }}</a></li>
+					<li><a href="/a-propos" class="nav__link" title="Let it quoi?">{{ t.nav.about }}</a></li>
+					<li><a href="/contact" class="nav__link" title="Je prends rendez-vous!">{{ t.nav.contact }}</a></li>
 					{% endif %}
-					{% if page.lang == 'en' %}<li><a href="/organize.html" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
-					<li><a href="/decorate.html" class="nav__link" title="Help me decorate!">{{ t.nav.decorate }}</a></li>
-					<li><a href="/about.html" class="nav__link" title="Let it what?">{{ t.nav.about }}</a></li>
-					<li><a href="/contact-us.html" class="nav__link" title="I want a meeting!">{{ t.nav.contact }}</a></li>
+					{% if page.lang == 'en' %}<li><a href="/organize" class="nav__link" title="Help me organize!">{{ t.nav.organize }}</a></li>
+					<li><a href="/decorate" class="nav__link" title="Help me decorate!">{{ t.nav.decorate }}</a></li>
+					<li><a href="/about" class="nav__link" title="Let it what?">{{ t.nav.about }}</a></li>
+					<li><a href="/contact-us" class="nav__link" title="I want a meeting!">{{ t.nav.contact }}</a></li>
 					{% endif %}
 					{% if page.lang == 'fr' %}<li>
 						<a href="https://www.facebook.com/mashaletitshine-278190159779666/" target="_blank" title="Suivez Let it shine! sur facebook!" rel="noopener noreferrer nofollow"><i class="pdgr mdi mdi-facebook social social__header__link"></i></a>
