@@ -107,6 +107,10 @@ fr:
     work:
       title: Réalisations
       subtitle-1: Photoshoot "Detailed Vision"
+  blog:
+    title: Le blog de Masha
+    article-1:
+      title: Test titre
   about:
     title: Une touche de bien être
     content-1: Let it shine! offre à ses clients des solutions en (ré)organisation d'espaces personnels et en décoration. C'est Masha Wojcik, architecte d'intérieur spécialisée en décoration et organisation d'espace, qui crée la société en 2018.
@@ -131,7 +135,25 @@ fr:
     testifier-function-3:
     testifier-children-3:
     quote-3:
-  form: 
+  contact:
+    title: Contactez nous!
+    title-2: Un RDV? Une question?
+    description: Contactez Masha, rencontrez là et prenez les devants pour apporter à votre appartement, votre maison ou vos bureaux une touche de bien être. Redécouvrez votre salon, votre cuisine, salle de bain, chambre ou balcon.
+    description-2: Osez, rêvez, rangez, ré-organisez et décorez!
+    subtitle: Let it shine! est à votre disposition
+    details: Coordonnées
+    company: Let it shine!
+    name: Masha Wójcik
+    function: Founder
+    email: masha@letitshine.ch
+    phone: +41 (0) 79 275 90 63
+    address-1: Rue du Maupas 87
+    address-2: 1004, Lausanne
+    catch: Premier RDV offert et sans engagement!
+    partners: Partenaires
+  booking:
+    title: Réservation en ligne
+  form:
     title: Formulaire de contact
     name: Prénom, nom
     email: Email
@@ -151,22 +173,6 @@ fr:
     rgpd-1: Par le biais de ce formulaire j'autorise Let it shine! à conserver mes coordonnées uniquement pour les services me concernant
     rgpd-2:  (vos données ne seront jamais transmises ou vendues à des tiers)
     cta: J'envoie ma demande!
-  contact:
-    title: Contactez nous!
-    title-2: Un RDV? Une question?
-    description: Contactez Masha, rencontrez là et prenez les devants pour apporter à votre appartement, votre maison ou vos bureaux une touche de bien être. Redécouvrez votre salon, votre cuisine, salle de bain, chambre ou balcon.
-    description-2: Osez, rêvez, rangez, ré-organisez et décorez!
-    subtitle: Let it shine! est à votre disposition
-    details: Coordonnées
-    company: Let it shine!
-    name: Masha Wójcik
-    function: Founder
-    email: masha@letitshine.ch
-    phone: +41 (0) 79 275 90 63
-    address-1: Rue du Maupas 87
-    address-2: 1004, Lausanne
-    catch: Premier RDV offert et sans engagement!
-    partners: Partenaires
   footer:
     copyright: Tous droits réservés
 en:
@@ -279,6 +285,10 @@ en:
     work:
       title: Decoration examples
       subtitle-1: Photoshoot "Detailed Vision"
+  blog:
+      title: Masha's Blog
+      article-1:
+        title: Test titre
   about:
     title: A little bit of happiness
     content-1: Let it shine! delivers solutions in space reorganisation and interior design. It was founded by Masha Wojcik, interior designer specialized in decoration and space organizing in 2018.
@@ -303,6 +313,24 @@ en:
     testifier-function-3:
     testifier-children-3:
     quote-3:
+  contact:
+    title: Contact us!
+    title-2: An offer? A meeting?
+    subtitle: Reach out!
+    description: Contact Masha, meet with her and bring a new atmosphere to your appartment, your house or your office. Discover your living room, your kitchen, your bathroom, or balcony again.
+    description-2: Dare, dream, organize, decorate!
+    details: Details
+    company: Let it shine!
+    name: Masha Wójcik
+    function: Founder
+    email: masha@letitshine.ch
+    phone: +41 (0) 79 275 90 63
+    address-1: Rue du Maupas 87
+    address-2: 1004, Lausanne
+    catch: First meeting & offer free, no commitment!
+    partners: Partners
+  booking:
+    title: Online booking
   form: 
     title: Contact form
     name: First, Last
@@ -323,21 +351,5 @@ en:
     rgpd-1: With this form, I allow Let it shine! to keep my personal information for business purposes related to my profile only.
     rgpd-2:  (your data will never be given out or sold to third parties)
     cta: Send my request
-  contact:
-    title: Contact us!
-    title-2: An offer? A meeting?
-    subtitle: Reach out!
-    description: Contact Masha, meet with her and bring a new atmosphere to your appartment, your house or your office. Discover your living room, your kitchen, your bathroom, or balcony again.
-    description-2: Dare, dream, organize, decorate!
-    details: Details
-    company: Let it shine!
-    name: Masha Wójcik
-    function: Founder
-    email: masha@letitshine.ch
-    phone: +41 (0) 79 275 90 63
-    address-1: Rue du Maupas 87
-    address-2: 1004, Lausanne
-    catch: First meeting & offer free, no commitment!
-    partners: Partners
   footer:
     copyright: All rights reserved

@@ -7,11 +7,23 @@
 	    <h3 class="md-text-center">{{ t.contact.subtitle }}</h3>
 	    <p class="md-mrgh++">{{ t.contact.description }}</p>
 	    <p class="md-mrgh++ md-text-center" id="form">{{ t.contact.description-2 }}</p>
-		<div class="md-mrgh+">
-			{% include form.html %}
-		</div>
-		<div class="grid grid-center">
-			<div class="sm-w-1/2 grid__item">
+		<!-- Integ Calendly -->
+	    <h2 class="mrgb+ md-text-center">{{ t.booking.title }}</h2>
+		{% if page.lang == 'fr' %}
+		<div class="calendly-inline-widget" data-url="https://calendly.com/mashaletitshine-f/book-me?primary_color=4267b2" style="min-width:320px;height:630px;">
+	    </div>
+	    {% endif %}
+		{% if page.lang == 'en' %}
+		<div class="calendly-inline-widget" data-url="https://calendly.com/mashaletitshine/book-me?primary_color=4267b2" style="min-width:320px;height:630px;">
+	    </div>
+	    {% endif %}
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+		<!-- End Integ Calendly -->
+		<div class="grid grid-center md-mrgh+">
+			<div class="md-w-1/2 grid__item">
+				{% include form.html %}
+			</div>
+			<div class="md-w-1/2 grid__item">
 				<h2 class="text-center mrgb+">{{ t.contact.details }}</h2>
 				<address class="text-center">
 					<span class="text-bold">{{ t.contact.company }}</span><br>
@@ -23,8 +35,6 @@
 					{{ t.contact.address-2 }}<br>
 				</address>
 				<p class="text-center">{{ t.contact.catch }}</p>
-			</div>
-			<div class="sm-w-1/2 grid__item">
 				<h2 class="text-center mrgb+">{{ t.contact.partners }}</h2>
 				<a href="http://www.osirisfleurs.ch/" rel="noopener noreferrer nofollow" target="_blank" title="Pour garnir votre intérieur à des prix partenaire!"><img class="img-block align-center partner" src="assets/images/osiris-capture.PNG" alt="logo Osiris fleurs"></a>
 			</div>
