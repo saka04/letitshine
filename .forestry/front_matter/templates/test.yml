@@ -1,4 +1,9 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: titre
+  type: text
+  config:
+    required: false
+  label: Titre
