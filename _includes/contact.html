@@ -6,17 +6,11 @@
 	    <h2 class="md-text-center">{{ t.contact.title-2 }}</h2>
 	    <h3 class="md-text-center">{{ t.contact.subtitle }}</h3>
 	    <p class="md-mrgh++">{{ t.contact.description }}</p>
-	    <p class="md-mrgh++ md-text-center" id="form">{{ t.contact.description-2 }}</p>
-		<!-- Integ Calendly -->
+	    <p class="md-mrgh++ md-text-center">{{ t.contact.description-2 }}</p>
 	    <h2 class="mrgb+ md-text-center">{{ t.booking.title }}</h2>
-		{% if page.lang == 'fr' %}
-		<div class="calendly-inline-widget" data-url="https://calendly.com/mashaletitshine-f/book-me?primary_color=4267b2" style="min-width:320px;height:630px;">
-	    </div>
-	    {% endif %}
-		{% if page.lang == 'en' %}
+		<!-- Integ Calendly -->
 		<div class="calendly-inline-widget" data-url="https://calendly.com/mashaletitshine/book-me?primary_color=4267b2" style="min-width:320px;height:630px;">
 	    </div>
-	    {% endif %}
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 		<!-- End Integ Calendly -->
 		<div class="grid grid-center md-mrgh+">
